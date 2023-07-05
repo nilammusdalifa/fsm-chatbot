@@ -1,0 +1,183 @@
+- pertanyaan dimasukin ke state ask
+- semua response dari fsm
+- bikin class baru buat nampung data barang
+- di state order dicek, udah ada blm data barang, klo ada lgsg konfirmasi order: ya (berhasil), ngga (back to ask)
+- pengecekan di db 
+
+- di state order dicek udah login blm, klo blm lgsg ke state auth, klo udah proses insert data barang ke db
+
+# TANYA STOK
+(ask)
+user: asus ada? -> extract entity merk laptop = asus
+bot: tentu, berikut list tipe laptop dari asus
+bot: [menampilkan list tipe dari laptop asus]
+bot: tipe mana yang Anda inginkan?
+user: [memilih tipe laptop]
+bot: baik, untuk jumlahnya berapa kak?
+user: 1
+
+(order) -> pertama dicek dlu apakah sudah login menggunakan variabel is_login, klo udah proses ke insert data ke db, klo ngga ke state auth 
+default: is_login = False -> jadi langsung masuk ke kondisi blm login jadi ke auth dlu
+
+(auth)
+bot: untuk melanjutkan transaksi silahkan login terlebih dahulu
+bot: apakah Anda sudah memiliki akun?
+user: udah
+
+(login)
+bot: masukkan email dan password anda, contoh: nilam@mail.com 12345
+user: [email password]
+bot: Selamat datang [name]! Kami senang anda menggunakan layanan Kami
+
+(order) -> is_login = True
+bot: [menampilkan rangkuman pesanan, berupa merk, tipe, harga, dan jumlah laptop]
+bot: apakah pesanannya sudah sesuai?
+user: udah 
+bot: baik, pesanan berhasil diproses!
+bot: Apakah anda ingin membeli laptop lain?
+user: ngga
+
+(exit)
+bot: Terimakasih telah menggunakan layanan kami :)
+
+
+# TANYA HARGA
+(ask)
+user: Berapa harga laptop asus rog? -> extract entity merk laptop = asus, tipe = [seluruh tipe yang ada rog]
+bot: tentu, berikut list tipe laptop dari asus rog
+bot: [menampilkan list tipe dari laptop asus rog]
+bot: tipe mana yang Anda inginkan?
+user: [memilih tipe laptop]
+bot: baik, untuk jumlahnya berapa kak?
+user: 1
+
+(order) -> pertama dicek dlu apakah sudah login menggunakan variabel is_login, klo udah proses ke insert data ke db, klo ngga ke state auth 
+default: is_login = False -> jadi langsung masuk ke kondisi blm login jadi ke auth dlu
+
+(auth)
+bot: untuk melanjutkan transaksi silahkan login terlebih dahulu
+bot: apakah Anda sudah memiliki akun?
+user: udah
+
+(login)
+bot: masukkan email dan password anda, contoh: nilam@mail.com 12345
+user: [email password]
+bot: Selamat datang [name]! Kami senang anda menggunakan layanan Kami
+
+(order) -> is_login = True
+bot: [menampilkan rangkuman pesanan, berupa merk, tipe, harga, dan jumlah laptop]
+bot: apakah pesanannya sudah sesuai?
+user: udah 
+bot: baik, pesanan berhasil diproses!
+bot: Apakah anda ingin membeli laptop lain?
+user: ngga (kalo iya ke ask lagi)
+
+(exit)
+bot: Terimakasih telah menggunakan layanan kami :)
+
+
+# MINTA REKOMENDASI
+(recommendation)
+
+# user tidak menyantumkan merk dan filter tertentu seperti (termurah/termahal)
+user: rekom laptop dong
+bot: berikut daftar merk laptop yang ada di toko kami
+bot: [menampilkan list merk laptop yang tersedia]
+bot: silahkan pilih merk laptop yang Anda inginkan
+user: [memilih merk laptop]
+bot: berikut list tipe dari laptop [merk laptop]
+user: tipe mana yang Anda inginkan?
+user: [memilih tipe laptop]
+user: baik, untuk jumlahnya berapa kak?
+
+# user tidak menyantumkan merk, menyertakan filter tertentu seperti (termurah/termahal)
+user: rekom laptop [murah/mahal] dong
+bot: berikut daftar laptop [murah/mahal]
+bot: [menampilkan daftar laptop termurah]
+bot: apakah ada laptop yang membuat Anda tertarik? jika iya sebutkan laptop yang anda inginkan.
+user: [menyebutkan laptop] -> extract entity merk ex: laptop = asus, tipe = [zenbook 13]
+bot: apakah Anda mau beli?
+user: iya
+
+(ask)
+user: baik, untuk jumlahnya berapa kak?
+
+(order) -> pertama dicek dlu apakah sudah login menggunakan variabel is_login, klo udah proses ke insert data ke db, klo ngga ke state auth 
+default: is_login = False -> jadi langsung masuk ke kondisi blm login jadi ke auth dlu
+
+(auth)
+bot: untuk melanjutkan transaksi silahkan login terlebih dahulu
+bot: apakah Anda sudah memiliki akun?
+user: udah
+
+(login)
+bot: masukkan email dan password anda, contoh: nilam@mail.com 12345
+user: [email password]
+bot: Selamat datang [name]! Kami senang anda menggunakan layanan Kami
+
+(order) -> is_login = True
+bot: [menampilkan rangkuman pesanan, berupa merk, tipe, harga, dan jumlah laptop]
+bot: apakah pesanannya sudah sesuai?
+user: udah 
+bot: baik, pesanan berhasil diproses!
+bot: Apakah anda ingin membeli laptop lain?
+user: ngga
+
+(exit)
+bot: Terimakasih telah menggunakan layanan kami :)
+
+
+
+
+
+
+misal bikin history intent dan state
+self.__intent_history = []
+self.__state_history = []
+
+atau 
+
+self.history = {
+    'intent': ['tanya_harga'],
+    'state': ['ask]
+}
+
+Asus zenbook
+Spesifikasi: 
+- {jfjfj}
+- {kfknfk}
+
+Berikut rincian pesanan Anda
+Merk    : Asus
+Tipe    : Zenbook 13
+Harga   : Rp. 2.000.000
+Jumlah  : 1
+Total   : Rp. 2.000.000
+
+FLOW SEQUENCE
+user input -> app.py -> fsm (detect intent, respond => bot response) -> app.py (masukin chat ke log => return respons) -> user
+
+form input (kalimat n kata ambigu) -> app -> simplified lesk (preprocess) -> preprocessing (token, stopword, stem) 
+-> simplified lesk (set_dictionary(kata ambigu) => new_dict) -> preprocessing (return new_dict)  -> simplified lesk (get intersect(), calculate overlap())
+
+
+USER                                                          APP                       PREPROCESSING                       SIMPLIFIED LESK
+input (kalimat n kata ambigu)-----------------------------> ambil data -------------->    token(),      ---------------->   set_dictionary(),
+                                                                                          stopword(),                       get_intersect(),
+                                                                                          stem()                            calculate_overlap(),
+                                                                                                                            get_sense_by_overlap_index()
+                            <----------------------------------------------------------------------------------------------
+                                                                        predicted_sense                                                   
+
+USER                                                          APP                           FSM                      
+input (kalimat) --------------------------------------------> ambil data -------------->    detec_intent(),     
+dan menekan tombol send                                                                     respond() 
+                        <------------------------------------------------------------------- bot_response
+                                                             chat_log()                                                      
+
+
+Spesifikasi laptop Lenovo Legion 5 Pro
+Prosesor : laskdlsakd
+Ram : laskdlsakd
+Prosesor : laskdlsakd
+Prosesor : laskdlsakd

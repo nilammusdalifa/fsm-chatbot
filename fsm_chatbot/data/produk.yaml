@@ -1,0 +1,122 @@
+ENTITAS:
+  - MERK: lenovo
+    TIPE:
+      - thinkpad l13 gen 2
+      - ideapad slim 3 14alc6
+      - ideapad slim 5 pro
+      - ideapad flex 5
+      - yoga slim 7i pro
+      - legion 5 pro
+      - thinkpad t460
+      - thinkbook 14s
+      - ideapad l340
+      - thinkpad yoga 11e
+  - MERK: asus
+    TIPE:
+      - tuf gaming fx505dy
+      - vivobook x540ya
+      - zenbook 13
+      - rog zephyrus g14
+      - rog strix scar 17
+      - transformer book
+      - tuf gaming f15
+      - vivobook pro 15
+      - rog strix gl553vd
+      - vivobook 14 a416ja
+  - MERK: microsoft
+    TIPE:
+      - surface pro 7
+      - surface go 2
+      - surface go
+      - surface pro X
+      - surface pro 6
+      - surface pro 3
+      - surface book 2
+      - surface pro 4
+      - surface pro 8
+      - surface 3
+  - MERK: dell
+    TIPE:
+      - latitude e6230
+      - xps 9350
+      - xps 13
+      - latitude 3410
+      - alienware m15 r5
+      - xps 13 9310
+      - alienware x14
+      - inspiron 5425
+      - vostro 3420
+      - inspiron 15 3511
+  - MERK: hp
+    TIPE:
+      - pavilion x360
+      - pavilion 15
+      - notebook 14s-dk0073au
+      - elitebook 820 g2
+      - notebook 14-am016tx
+      - elitebook 8460p
+      - 14s-cf1051tu
+      - pavilion x360
+      - victus 16
+      - envy 13
+  - MERK: acer
+    TIPE:
+      - aspire 3 a315-42
+      - aspire es1-432
+      - spin 1 sp111-33
+      - aspire es1-132
+      - aspire 3 a314-32
+      - aspire z3-451
+      - aspire 3 a315-41
+      - spin 3 sp314-51
+      - aspire 3 a314-21
+      - aspire e5-473g
+  - MERK: apple
+    TIPE:
+      - macbook pro 13 inch 2018
+      - macbook pro 16-inch 2019
+      - macbook air 2020
+      - macbook air m1 2020
+      - macbook air 13-inch
+      - macbook air m2 2022
+      - macbook pro 13inch 2017
+      - macbook pro 13-inch 2020
+      - macbook pro m1 13 inch 2020
+  - MERK: xiaomi
+    TIPE:
+      - redmibook 13
+      - redmibook 14
+      - redmibook 15
+      - mi notebook air
+      - elitebook folio g1
+      - xiao gang
+      - notebook pro
+      - redmibook pro 15
+      - mi notebook 14
+      - redmibook pro 14
+  - MERK: msi
+    TIPE:
+      - katana gf66
+      - gl638rd
+      - titan gt77
+      - alpha 15
+      - modern b11mo
+      - modern 14 c12m
+      - ge76 raider
+      - prestige 14
+      - modern 14 b5m
+      - crosshair 15
+  - MERK: infinix
+    TIPE:
+      - inbook x1
+      - inbook x1 pro
+      - inbook x2
+      - itel able 1
+      - itel epic 1
+  - MERK: samsung
+    TIPE:
+      - chromebook 4
+      - galaxy book 2 pro 360
+      - galaxy book flex 2
+      - galaxy book pro
+      - ativ ultrabook

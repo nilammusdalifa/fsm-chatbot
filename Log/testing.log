@@ -1,0 +1,1550 @@
+# AIS
+2023-07-04 20:19:03 - [User]: Rekomendasi laptop . (Current State : recommendation)
+2023-07-04 20:19:03 - [Bot]: Berikut rekomendasi merk laptop terbaik dari toko kami!
+2023-07-04 20:19:03 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 20:19:03 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-04 20:22:05 - [User]: Harga asus berapa?. (Current State : recommendation)
+2023-07-04 20:22:05 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-04 20:22:05 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-04 20:22:05 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 20:26:30 - [User]: Info spesifikasi laptop asus rog dong. (Current State : greeting)
+2023-07-04 20:26:30 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 20:28:24 - [User]: Laptop asus masih ada stok ga?. (Current State : ask_stock)
+2023-07-04 20:28:24 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Asus
+2023-07-04 20:28:24 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-04 20:28:24 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-04 20:28:33 - [User]: VivoBook 14 A416JA. (Current State : ask_stock)
+2023-07-04 20:28:33 - [Bot]: Stok untuk laptop Asus Vivobook 14 a416ja ada 250 unit
+2023-07-04 20:28:33 - [Bot]: Apakah Anda tertarik?
+2023-07-04 20:29:07 - [User]: Oke saya mau beli 1. (Current State : ask_stock)
+2023-07-04 20:29:07 - [Bot]: Stok untuk laptop Asus Vivobook 14 a416ja ada 250 unit
+2023-07-04 20:29:07 - [Bot]: Apakah Anda tertarik?
+2023-07-04 20:29:42 - [User]: Iya saya mau beli 1. (Current State : ask_stock)
+2023-07-04 20:29:42 - [Bot]: Stok untuk laptop Asus Vivobook 14 a416ja ada 250 unit
+2023-07-04 20:29:42 - [Bot]: Apakah Anda tertarik?
+
+# AAN
+2023-07-04 20:39:46 - [User]: Rekomendasi laptop yang bagus. (Current State : recommendation)
+2023-07-04 20:39:46 - [Bot]: Berikut rekomendasi merk laptop terbaik dari toko kami!
+2023-07-04 20:39:46 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 20:39:46 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-04 20:40:14 - [User]: Apple. (Current State : recommendation)
+2023-07-04 20:40:14 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-04 20:40:14 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-04 20:40:14 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 20:42:44 - [User]: Berapa harga laptop apple. (Current State : ask_price)
+2023-07-04 20:42:44 - [Bot]: Berikut list harga laptop Apple dengan tipenya
+2023-07-04 20:42:44 - [Bot]: ['Macbook Air M1 2020 - Rp. 12,206,000', 'MacBook Air 13-inch - Rp. 12,498,000', 'MacBook Air M2 2022 - Rp. 16,460,000', 'MacBook Pro 13inch 2017 - Rp. 13,500,000', 'Macbook Pro 13-inch 2020 - Rp. 16,225,000', 'Macbook Pro M1 13 Inch 2020 - Rp. 15,450,000', 'Macbook Air 2020 - Rp. 14,944,000', 'MacBook Pro 16-inch 2019 - Rp. 23,565,000', 'MacBook Pro 13 Inch 2018 - Rp. 11,950,000', 'MacBook Air M2 2022 - Rp. 16,325,000']
+2023-07-04 20:42:44 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 20:43:00 - [User]: Macbook Air 2020. (Current State : ask_price)
+2023-07-04 20:43:00 - [Bot]: Harga laptop Apple Macbook air 2020 adalah Rp. 14,944,000.
+2023-07-04 20:43:00 - [Bot]: Apakah Anda tertarik?
+2023-07-04 20:44:31 - [User]: Apa spek laptop apple. (Current State : ask_specification)
+2023-07-04 20:44:31 - [Bot]: Berikut list tipe laptop Apple
+2023-07-04 20:44:31 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-04 20:44:31 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-04 20:45:05 - [User]: Macbook Air 2020. (Current State : ask_specification)
+2023-07-04 20:45:05 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-04 20:50:06 - [User]: Laptop apple tersedia ga?. (Current State : greeting)
+2023-07-04 20:50:06 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 20:50:33 - [User]: Laptop apple tersedia ga. (Current State : greeting)
+2023-07-04 20:50:33 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 20:51:06 - [User]: [ BUG CHECKPOINT : SKENARIO 4 ]. (Current State : greeting)
+2023-07-04 20:51:06 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 20:51:30 - [User]: Apakah laptop apple tersedia stoknya. (Current State : ask_stock)
+2023-07-04 20:51:30 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Apple
+2023-07-04 20:51:30 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-04 20:51:30 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-04 20:51:51 - [User]: Macbook Air 2020. (Current State : ask_stock)
+2023-07-04 20:51:51 - [Bot]: Stok untuk laptop Apple Macbook air 2020 ada 400 unit
+2023-07-04 20:51:51 - [Bot]: Apakah Anda tertarik?
+2023-07-04 20:57:19 - [User]: Saya mau beli laptop apple macbook air 2020. (Current State : order_detail)
+2023-07-04 20:57:19 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 20:57:19 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 20:57:24 - [User]: 1. (Current State : auth)
+2023-07-04 20:57:24 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-04 20:57:36 - [User]: Sudah. (Current State : login)
+2023-07-04 20:57:36 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-04 20:57:36 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-04 20:57:36 - [Bot]: Masukkan email Anda
+2023-07-04 20:58:03 - [User]: Raihanalmenata@gmail.com. (Current State : login)
+2023-07-04 20:58:03 - [Bot]: Masukkan password Anda
+2023-07-04 20:58:07 - [User]: 123. (Current State : order)
+2023-07-04 20:58:07 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-04 20:58:15 - [User]: Iya. (Current State : order)
+2023-07-04 20:58:15 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-04 20:58:15 - [Bot]: Id Produk: 17
+Produk: Apple Macbook air 2020
+Jumlah: 1
+Harga: Rp. 14,944,000
+Total: Rp. 14,944,000
+2023-07-04 20:58:15 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-04 20:58:29 - [User]: Tidak, terima kasih. (Current State : exit)
+2023-07-04 20:58:29 - [Bot]: Terima kasih telah menggunakan layanan chatbot ecommerce kami :)
+2023-07-04 20:58:29 - [Bot]: Jika Anda memiliki pertanyaan lain di masa depan, jangan ragu untuk kembali lagi. Semoga harimu menyenangkan!
+
+# RANI
+2023-07-04 21:04:28 - [User]: Rekomendasi laptop dell. (Current State : greeting)
+2023-07-04 21:04:28 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-04 21:04:28 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-04 21:04:28 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 21:04:50 - [User]: Berikan rekomendasi laptop dell. (Current State : recommendation)
+2023-07-04 21:04:50 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Dell
+2023-07-04 21:04:50 - [Bot]: ['XPS 13 9310', 'Alienware x14', 'Alienware M15 R5', 'Inspiron 15 3511', 'Vostro 3420']
+2023-07-04 21:04:50 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 21:05:00 - [User]: Inspiron 15 3511. (Current State : recommendation)
+2023-07-04 21:05:00 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 21:07:02 - [User]: tidak. (Current State : greeting)
+2023-07-04 21:07:02 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-04 21:07:02 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-04 21:07:02 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 21:07:35 - [User]: berapa harga laptop apple?. (Current State : ask_price)
+2023-07-04 21:07:35 - [Bot]: Berikut list harga laptop Apple dengan tipenya
+2023-07-04 21:07:35 - [Bot]: ['Macbook Air M1 2020 - Rp. 12,206,000', 'MacBook Air 13-inch - Rp. 12,498,000', 'MacBook Air M2 2022 - Rp. 16,460,000', 'MacBook Pro 13inch 2017 - Rp. 13,500,000', 'Macbook Pro 13-inch 2020 - Rp. 16,225,000', 'Macbook Pro M1 13 Inch 2020 - Rp. 15,450,000', 'Macbook Air 2020 - Rp. 14,944,000', 'MacBook Pro 16-inch 2019 - Rp. 23,565,000', 'MacBook Pro 13 Inch 2018 - Rp. 11,950,000', 'MacBook Air M2 2022 - Rp. 16,325,000']
+2023-07-04 21:07:35 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 21:10:48 - [User]: spek laptop asus. (Current State : ask_price)
+2023-07-04 21:10:48 - [Bot]: Berikut list harga laptop Apple dengan tipenya
+2023-07-04 21:10:48 - [Bot]: ['Macbook Air M1 2020 - Rp. 12,206,000', 'MacBook Air 13-inch - Rp. 12,498,000', 'MacBook Air M2 2022 - Rp. 16,460,000', 'MacBook Pro 13inch 2017 - Rp. 13,500,000', 'Macbook Pro 13-inch 2020 - Rp. 16,225,000', 'Macbook Pro M1 13 Inch 2020 - Rp. 15,450,000', 'Macbook Air 2020 - Rp. 14,944,000', 'MacBook Pro 16-inch 2019 - Rp. 23,565,000', 'MacBook Pro 13 Inch 2018 - Rp. 11,950,000', 'MacBook Air M2 2022 - Rp. 16,325,000']
+2023-07-04 21:10:48 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 21:13:53 - [User]: spek laptop asus. (Current State : ask_specification)
+2023-07-04 21:13:53 - [Bot]: Berikut list tipe laptop Asus
+2023-07-04 21:13:53 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-04 21:13:53 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-04 21:13:59 - [User]: TUF Gaming F15. (Current State : ask_specification)
+2023-07-04 21:13:59 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-04 21:15:30 - [User]: apakah laptop apple masih ada stoknya?. (Current State : ask_stock)
+2023-07-04 21:15:30 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Apple
+2023-07-04 21:15:30 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-04 21:15:30 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-04 21:15:38 - [User]: Macbook Air 2020. (Current State : ask_stock)
+2023-07-04 21:15:38 - [Bot]: Stok untuk laptop Apple Macbook air 2020 ada 400 unit
+2023-07-04 21:15:38 - [Bot]: Apakah Anda tertarik?
+2023-07-04 21:17:20 - [User]: saya mau beli laptop acer. (Current State : order_detail)
+2023-07-04 21:17:20 - [Bot]: Berikut daftar tipe laptop Acer yang tersedia
+2023-07-04 21:17:20 - [Bot]: ['Aspire ES1-432', 'Spin 1 SP111-33', 'Aspire ES1-132', 'Aspire 3 A314-32', 'Aspire Z3-451', 'Aspire 3 A315-41', 'Spin 3 SP314-51', 'Aspire 3 A314-21', 'Aspire E5-473G']
+2023-07-04 21:17:20 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-04 21:17:33 - [User]: Aspire Z3. (Current State : order_detail)
+2023-07-04 21:17:33 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 21:17:33 - [Bot]: ['aspire 3 a315-42', 'aspire es1-432', 'aspire es1-132', 'aspire 3 a314-32', 'aspire z3-451', 'aspire 3 a315-41', 'aspire 3 a314-21', 'aspire e5-473g']
+2023-07-04 21:17:33 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 21:17:38 - [User]: aspire e5. (Current State : order_detail)
+2023-07-04 21:17:38 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 21:17:38 - [Bot]: ['aspire 3 a315-42', 'aspire es1-432', 'aspire es1-132', 'aspire 3 a314-32', 'aspire z3-451', 'aspire 3 a315-41', 'aspire 3 a314-21', 'aspire e5-473g']
+2023-07-04 21:17:38 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 21:17:43 - [User]: aspire 3 a315. (Current State : order_detail)
+2023-07-04 21:17:43 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 21:17:43 - [Bot]: ['aspire 3 a315-42', 'aspire 3 a314-32', 'aspire 3 a315-41', 'aspire 3 a314-21']
+2023-07-04 21:17:43 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 21:17:52 - [User]: aspire 3 a314. (Current State : order_detail)
+2023-07-04 21:17:52 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 21:17:52 - [Bot]: ['aspire 3 a315-42', 'aspire 3 a314-32', 'aspire 3 a315-41', 'aspire 3 a314-21']
+2023-07-04 21:17:52 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 21:18:34 - [User]: aspire 3 a314. (Current State : order_detail)
+2023-07-04 21:18:34 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 21:18:34 - [Bot]: ['aspire 3 a315-42', 'aspire 3 a314-32', 'aspire 3 a315-41', 'aspire 3 a314-21']
+2023-07-04 21:18:34 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 21:18:44 - [User]: aspire 3 a314. (Current State : order_detail)
+2023-07-04 21:18:44 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 21:18:44 - [Bot]: ['aspire 3 a315-42', 'aspire 3 a314-32', 'aspire 3 a315-41', 'aspire 3 a314-21']
+2023-07-04 21:18:44 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 21:27:25 - [User]: aspire 3 a315-42. (Current State : greeting)
+2023-07-04 21:27:25 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 21:28:44 - [User]: saya mau beli laptop asus. (Current State : order_detail)
+2023-07-04 21:28:44 - [Bot]: Berikut daftar tipe laptop Asus yang tersedia
+2023-07-04 21:28:44 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-04 21:28:44 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-04 21:28:51 - [User]: Vivobook Pro 15. (Current State : order_detail)
+2023-07-04 21:28:51 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 21:28:51 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 21:28:58 - [User]: 6. (Current State : auth)
+2023-07-04 21:28:58 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-04 21:29:03 - [User]: sudah. (Current State : login)
+2023-07-04 21:29:03 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-04 21:29:03 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-04 21:29:03 - [Bot]: Masukkan email Anda
+2023-07-04 21:29:14 - [User]: rani@mail.com. (Current State : login)
+2023-07-04 21:29:14 - [Bot]: Masukkan password Anda
+2023-07-04 21:29:17 - [User]: 123. (Current State : login)
+2023-07-04 21:29:17 - [Bot]: Maaf, email/pass anda salah ☹️
+2023-07-04 21:29:17 - [Bot]: Silahkan melakukan login kembali!
+2023-07-04 21:29:17 - [Bot]: Masukkan email Anda
+2023-07-04 21:30:01 - [User]: saya mau beli laptop asus. (Current State : order_detail)
+2023-07-04 21:30:01 - [Bot]: Berikut daftar tipe laptop Asus yang tersedia
+2023-07-04 21:30:01 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-04 21:30:01 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-04 21:30:07 - [User]: Vivobook Pro 15. (Current State : order_detail)
+2023-07-04 21:30:07 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 21:30:07 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 21:30:13 - [User]: 6. (Current State : auth)
+2023-07-04 21:30:13 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-04 21:30:17 - [User]: belum. (Current State : register)
+2023-07-04 21:30:17 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-04 21:30:17 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-04 21:30:27 - [User]: Rani Silvani. (Current State : register)
+2023-07-04 21:30:27 - [Bot]: Masukkan email Anda
+2023-07-04 21:30:27 - [Bot]: Contoh: nilam@mail.com
+2023-07-04 21:30:32 - [User]: rani@mail.com. (Current State : register)
+2023-07-04 21:30:32 - [Bot]: Masukkan password
+2023-07-04 21:30:38 - [User]: 123. (Current State : login)
+2023-07-04 21:30:38 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-04 21:30:38 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-04 21:30:38 - [Bot]: Masukkan email Anda
+2023-07-04 21:30:48 - [User]: rani@mail.com. (Current State : login)
+2023-07-04 21:30:48 - [Bot]: Masukkan password Anda
+2023-07-04 21:30:51 - [User]: 123. (Current State : order)
+2023-07-04 21:30:51 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-04 21:30:57 - [User]: iya. (Current State : order)
+2023-07-04 21:30:57 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-04 21:30:57 - [Bot]: Id Produk: 29
+Produk: Asus Vivobook pro 15
+Jumlah: 6
+Harga: Rp. 13,029,000
+Total: Rp. 78,174,000
+2023-07-04 21:30:57 - [Bot]: Apakah Anda ingin membeli laptop lain?
+
+# DEVELOPER TEST
+2023-07-04 21:57:45 - [User]: harga acer. (Current State : ask_price)
+2023-07-04 21:57:45 - [Bot]: Berikut list harga laptop Acer dengan tipenya
+2023-07-04 21:57:45 - [Bot]: ['Aspire ES1-432 : Rp. 4,350,000', 'Spin 1 SP111-33 : Rp. 3,990,000', 'Aspire ES1-132 : Rp. 2,850,000', 'Aspire 3 A314-32 : Rp. 3,150,000', 'Aspire Z3-451 : Rp. 4,150,000', 'Aspire 3 A315-41 : Rp. 7,599,000', 'Spin 3 SP314-51 : Rp. 5,999,000', 'Aspire 3 A314-21 : Rp. 5,399,000', 'Aspire E5-473G : Rp. 2,900,000']
+2023-07-04 21:57:45 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 21:57:51 - [User]: Aspire 3 A314-21. (Current State : ask_price)
+2023-07-04 21:57:51 - [Bot]: Harga laptop Acer Aspire 3 a314-21 adalah Rp. 5,399,000.
+2023-07-04 21:57:51 - [Bot]: Apakah Anda tertarik?
+2023-07-04 22:14:52 - [User]: rekomendasi laptop . (Current State : recommendation)
+2023-07-04 22:14:52 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-04 22:14:52 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 22:14:52 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-04 22:14:59 - [User]: Microsoft. (Current State : recommendation)
+2023-07-04 22:14:59 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Microsoft
+2023-07-04 22:14:59 - [Bot]: ['Surface Book 2', 'Surface Pro 8', 'Surface Pro 7', 'Surface Pro 6', 'Surface Go 2']
+2023-07-04 22:14:59 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:15:06 - [User]: Surface Pro 8. (Current State : recommendation)
+2023-07-04 22:15:06 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 22:15:09 - [User]: ga. (Current State : ask)
+2023-07-04 22:15:09 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:15:09 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:15:17 - [User]: harga asus. (Current State : ask_price)
+2023-07-04 22:15:17 - [Bot]: Berikut list harga laptop Asus dengan tipenya
+2023-07-04 22:15:17 - [Bot]: ['VivoBook X540YA : Rp. 3,700,000', 'TUF Gaming FX505DY : Rp. 9,999,000', 'ZenBook 13 : Rp. 8,999,000', 'ROG Zephyrus G14 : Rp. 20,499,000', 'ROG Strix Scar 17 : Rp. 59,999,000', 'Transformer Book : Rp. 3,199,000', 'TUF Gaming F15 : Rp. 14,799,000', 'Vivobook Pro 15 : Rp. 13,029,000', 'ROG Strix GL553VD : Rp. 14,875,000', 'VivoBook 14 A416JA : Rp. 5,699,000']
+2023-07-04 22:15:17 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:15:28 - [User]: ZenBook 13. (Current State : ask_price)
+2023-07-04 22:15:28 - [Bot]: Harga laptop Asus Zenbook 13 adalah Rp. 8,999,000.
+2023-07-04 22:15:28 - [Bot]: Apakah Anda tertarik?
+2023-07-04 22:15:47 - [User]: ga. (Current State : ask)
+2023-07-04 22:15:47 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:15:47 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:16:02 - [User]: info spek laptop lenovo dong. (Current State : ask_specification)
+2023-07-04 22:16:02 - [Bot]: Silahkan pilih tipe laptop Lenovo terlebih dahulu
+2023-07-04 22:16:02 - [Bot]: ['IdeaPad Slim 3 14ALC6', 'IdeaPad Slim 5 Pro', 'IdeaPad Flex 5', 'Yoga Slim 7i Pro', 'Legion 5 Pro', 'ThinkPad T460', 'ThinkBook 14s', 'Ideapad L340', 'ThinkPad Yoga 11e']
+2023-07-04 22:16:02 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-04 22:16:21 - [User]: gajadi. (Current State : ask)
+2023-07-04 22:16:21 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:16:21 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:16:27 - [User]: info spesifikasi laptop asus. (Current State : recommendation)
+2023-07-04 22:16:27 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-04 22:16:27 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-04 22:16:27 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+
+# ASYRAF
+2023-07-04 22:28:58 - [User]: rekomendasi laptop bagus. (Current State : recommendation)
+2023-07-04 22:28:58 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-04 22:28:58 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 22:28:58 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-04 22:29:06 - [User]: Apple. (Current State : greeting)
+2023-07-04 22:29:06 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 22:29:23 - [User]: Apple. (Current State : greeting)
+2023-07-04 22:29:23 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 22:29:28 - [User]: Asus. (Current State : greeting)
+2023-07-04 22:29:28 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 22:29:39 - [User]: rekomendasi laptop apple. (Current State : recommendation)
+2023-07-04 22:29:39 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-04 22:29:39 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-04 22:29:39 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:32:07 - [User]: rekomendasi laptop bagus. (Current State : recommendation)
+2023-07-04 22:32:07 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-04 22:32:07 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 22:32:07 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-04 22:32:18 - [User]: Apple. (Current State : recommendation)
+2023-07-04 22:32:18 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-04 22:32:18 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-04 22:32:18 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:32:33 - [User]: MacBook Air M2 2022. (Current State : recommendation)
+2023-07-04 22:32:33 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 22:33:29 - [User]: tidak. (Current State : ask)
+2023-07-04 22:33:29 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:33:29 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:33:43 - [User]: Berapa harga laptop Apple. (Current State : ask_price)
+2023-07-04 22:33:43 - [Bot]: Berikut list harga laptop Apple dengan tipenya
+2023-07-04 22:33:43 - [Bot]: ['Macbook Air M1 2020 : Rp. 12,206,000', 'MacBook Air 13-inch : Rp. 12,498,000', 'MacBook Air M2 2022 : Rp. 16,460,000', 'MacBook Pro 13inch 2017 : Rp. 13,500,000', 'Macbook Pro 13-inch 2020 : Rp. 16,225,000', 'Macbook Pro M1 13 Inch 2020 : Rp. 15,450,000', 'Macbook Air 2020 : Rp. 14,944,000', 'MacBook Pro 16-inch 2019 : Rp. 23,565,000', 'MacBook Pro 13 Inch 2018 : Rp. 11,950,000', 'MacBook Air M2 2022 : Rp. 16,325,000']
+2023-07-04 22:33:43 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:34:29 - [User]: tidak. (Current State : greeting)
+2023-07-04 22:34:29 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-04 22:34:29 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-04 22:34:29 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:34:49 - [User]: Spek laptop xiaomi. (Current State : ask_specification)
+2023-07-04 22:34:49 - [Bot]: Silahkan pilih tipe laptop Xiaomi terlebih dahulu
+2023-07-04 22:34:49 - [Bot]: ['RedmiBook Pro 14', 'RedmiBook 15', 'Mi Notebook Air', 'ELITEBOOK FOLIO G1', 'RedmiBook 14', 'Xiao Gang', 'RedmiBook 13 R', 'Notebook Pro', 'Redmibook Pro 15', 'Mi Notebook 14']
+2023-07-04 22:34:49 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-04 22:34:55 - [User]: Xiao Gang. (Current State : ask_specification)
+2023-07-04 22:34:55 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-04 22:36:15 - [User]: tidak. (Current State : ask)
+2023-07-04 22:36:15 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:36:15 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:36:20 - [User]: laptop asus ada?. (Current State : ask)
+2023-07-04 22:36:20 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:36:20 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:36:30 - [User]: Laptop Asus ada?. (Current State : ask)
+2023-07-04 22:36:30 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:36:30 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:36:53 - [User]: Laptop asus ada?. (Current State : greeting)
+2023-07-04 22:36:53 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 22:37:01 - [User]: Laptop asus ada?. (Current State : greeting)
+2023-07-04 22:37:01 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 22:37:19 - [User]: Laptop Asus ada?. (Current State : greeting)
+2023-07-04 22:37:19 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 22:37:34 - [User]: Apakah laptop Asus masih ada stok nya?. (Current State : ask_stock)
+2023-07-04 22:37:34 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Asus
+2023-07-04 22:37:34 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-04 22:37:34 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-04 22:37:43 - [User]: TUF Gaming FX505DY. (Current State : ask_stock)
+2023-07-04 22:37:43 - [Bot]: Stok untuk laptop Asus Tuf gaming fx505dy ada 424 unit
+2023-07-04 22:37:43 - [Bot]: Apakah Anda tertarik?
+2023-07-04 22:38:49 - [User]: Iya. (Current State : greeting)
+2023-07-04 22:38:49 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-04 22:38:49 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-04 22:38:49 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:39:15 - [User]: Saya mau beli laptop Lenovo. (Current State : order_detail)
+2023-07-04 22:39:15 - [Bot]: Berikut daftar tipe laptop Lenovo yang tersedia
+2023-07-04 22:39:15 - [Bot]: ['IdeaPad Slim 3 14ALC6', 'IdeaPad Slim 5 Pro', 'IdeaPad Flex 5', 'Yoga Slim 7i Pro', 'Legion 5 Pro', 'ThinkPad T460', 'ThinkBook 14s', 'Ideapad L340', 'ThinkPad Yoga 11e']
+2023-07-04 22:39:15 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-04 22:39:21 - [User]: ThinkPad T460. (Current State : order_detail)
+2023-07-04 22:39:21 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 22:39:21 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 22:39:26 - [User]: 1. (Current State : auth)
+2023-07-04 22:39:26 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-04 22:39:33 - [User]: belum. (Current State : register)
+2023-07-04 22:39:33 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-04 22:39:33 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-04 22:39:43 - [User]: Asyraf Shafiyyurrahman. (Current State : register)
+2023-07-04 22:39:43 - [Bot]: Masukkan email Anda
+2023-07-04 22:39:43 - [Bot]: Contoh: nilam@mail.com
+2023-07-04 22:39:54 - [User]: asyraf07@mail.com. (Current State : register)
+2023-07-04 22:39:54 - [Bot]: Masukkan password
+2023-07-04 22:39:59 - [User]: asdf. (Current State : login)
+2023-07-04 22:39:59 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-04 22:39:59 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-04 22:39:59 - [Bot]: Masukkan email Anda
+2023-07-04 22:40:15 - [User]: asyraf07@mail.com. (Current State : login)
+2023-07-04 22:40:15 - [Bot]: Masukkan password Anda
+2023-07-04 22:40:19 - [User]: asdf. (Current State : order)
+2023-07-04 22:40:19 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-04 22:40:26 - [User]: Mau. (Current State : order)
+2023-07-04 22:40:26 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-04 22:40:26 - [Bot]: Id Produk: 63
+Produk: Lenovo Thinkpad t460
+Jumlah: 1
+Harga: Rp. 15,299,000
+Total: Rp. 15,299,000
+2023-07-04 22:40:26 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-04 22:41:24 - [User]: tidak. (Current State : ask)
+2023-07-04 22:41:24 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:41:24 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+
+# DEVELOPER TEST
+2023-07-04 22:48:54 - [User]: rekomen laptop bagus. (Current State : recommendation)
+2023-07-04 22:48:54 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-04 22:48:54 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 22:48:54 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-04 22:49:14 - [User]: Lenovo. (Current State : recommendation)
+2023-07-04 22:49:14 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Lenovo
+2023-07-04 22:49:14 - [Bot]: ['Legion 5 Pro', 'ThinkPad T460', 'IdeaPad Flex 5', 'Thinkpad L13 Gen 2', 'Yoga Slim 7i Pro']
+2023-07-04 22:49:14 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:49:19 - [User]: ThinkPad T460. (Current State : recommendation)
+2023-07-04 22:49:19 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 22:49:22 - [User]: ga. (Current State : ask)
+2023-07-04 22:49:22 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:49:22 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:53:00 - [User]: Rekomen leptop acer. (Current State : ask)
+2023-07-04 22:53:00 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:53:00 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:53:38 - [User]: Laptop apa yang bagus?. (Current State : recommendation)
+2023-07-04 22:53:38 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-04 22:53:38 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 22:53:38 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-04 22:54:00 - [User]: Apple. (Current State : recommendation)
+2023-07-04 22:54:00 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-04 22:54:00 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-04 22:54:00 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:54:32 - [User]: Macbook Pro 13-inch 2020. (Current State : ask)
+2023-07-04 22:54:32 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:54:32 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:54:32 - [User]: Macbook Pro M1 13 Inch 2020. (Current State : recommendation)
+2023-07-04 22:54:32 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+
+# ALVIN
+2023-07-04 22:55:02 - [User]: Laptop apple apa yang bagus?. (Current State : recommendation)
+2023-07-04 22:55:02 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-04 22:55:02 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-04 22:55:02 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:55:09 - [User]: Macbook Pro M1 13 Inch 2020. (Current State : recommendation)
+2023-07-04 22:55:09 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 22:55:20 - [User]: yaa. (Current State : recommendation)
+2023-07-04 22:55:20 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 22:55:23 - [User]: iyaa. (Current State : order_detail)
+2023-07-04 22:55:23 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 22:55:23 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 22:55:36 - [User]: 5000. (Current State : auth)
+2023-07-04 22:55:36 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-04 22:55:44 - [User]: belum. (Current State : register)
+2023-07-04 22:55:44 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-04 22:55:44 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-04 22:55:59 - [User]: Kemas M Husein Alviansyah. (Current State : register)
+2023-07-04 22:55:59 - [Bot]: Masukkan email Anda
+2023-07-04 22:55:59 - [Bot]: Contoh: nilam@mail.com
+2023-07-04 22:56:07 - [User]: alvin@mail.com. (Current State : register)
+2023-07-04 22:56:07 - [Bot]: Masukkan password
+2023-07-04 22:56:11 - [User]: 123. (Current State : login)
+2023-07-04 22:56:11 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-04 22:56:11 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-04 22:56:11 - [Bot]: Masukkan email Anda
+2023-07-04 22:56:22 - [User]: alvin@mail.com. (Current State : login)
+2023-07-04 22:56:22 - [Bot]: Masukkan password Anda
+2023-07-04 22:56:25 - [User]: 123. (Current State : order)
+2023-07-04 22:56:25 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-04 22:56:41 - [User]: tidak jadi. (Current State : ask)
+2023-07-04 22:56:41 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:56:41 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 22:56:57 - [User]: rekomendasi laptop HP. (Current State : recommendation)
+2023-07-04 22:56:57 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Hp
+2023-07-04 22:56:57 - [Bot]: ['Victus 16', 'Pavilion x360', 'ENVY 13', 'Pavilion 15', 'EliteBook 820 G2']
+2023-07-04 22:56:57 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 22:57:04 - [User]: ENVY 13. (Current State : recommendation)
+2023-07-04 22:57:04 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 22:57:10 - [User]: boleh. (Current State : order_detail)
+2023-07-04 22:57:10 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 22:57:10 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 22:57:18 - [User]: 5000000. (Current State : order)
+2023-07-04 22:57:18 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-04 22:57:18 - [Bot]: Id Produk: 51
+Produk: Hp Envy 13
+Jumlah: 5000000
+Harga: Rp. 9,099,000
+Total: Rp. 45,495,000,000,000
+2023-07-04 22:57:18 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-04 22:57:49 - [User]: batalkan pemesanan. (Current State : order)
+2023-07-04 22:57:49 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 22:57:49 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-04 22:57:55 - [User]: tidaaak. (Current State : order)
+2023-07-04 22:57:55 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 22:57:55 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-04 22:58:00 - [User]: tidak. (Current State : ask)
+2023-07-04 22:58:00 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 22:58:00 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 23:03:20 - [User]: beli laptop apple. (Current State : order_detail)
+2023-07-04 23:03:20 - [Bot]: Berikut daftar tipe laptop Apple yang tersedia
+2023-07-04 23:03:20 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-04 23:03:20 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-04 23:03:30 - [User]: MacBook Air M2 2022. (Current State : greeting)
+2023-07-04 23:03:30 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 23:03:34 - [User]: MacBook Air M2 2022. (Current State : greeting)
+2023-07-04 23:03:34 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 23:03:36 - [User]: MacBook Pro 13 Inch 2018. (Current State : greeting)
+2023-07-04 23:03:36 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 23:03:39 - [User]: Macbook Pro M1 13 Inch 2020. (Current State : greeting)
+2023-07-04 23:03:39 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-04 23:03:45 - [User]: beli laptop apple. (Current State : order_detail)
+2023-07-04 23:03:45 - [Bot]: Berikut daftar tipe laptop Apple yang tersedia
+2023-07-04 23:03:45 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-04 23:03:45 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-04 23:03:50 - [User]: MacBook Air M2 2022. (Current State : order_detail)
+2023-07-04 23:03:50 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 23:03:50 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 23:03:54 - [User]: 1. (Current State : auth)
+2023-07-04 23:03:54 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-04 23:03:59 - [User]: ya. (Current State : login)
+2023-07-04 23:03:59 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-04 23:03:59 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-04 23:03:59 - [Bot]: Masukkan email Anda
+2023-07-04 23:04:02 - [User]: alvin@mail.com. (Current State : login)
+2023-07-04 23:04:02 - [Bot]: Masukkan password Anda
+2023-07-04 23:04:05 - [User]: 123. (Current State : order)
+2023-07-04 23:04:05 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-04 23:04:09 - [User]: ya. (Current State : order)
+2023-07-04 23:04:09 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-04 23:04:09 - [Bot]: Id Produk: 13
+Produk: Apple Macbook air m2 2022
+Jumlah: 1
+Harga: Rp. 16,460,000
+Total: Rp. 16,460,000
+2023-07-04 23:04:09 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-04 23:04:15 - [User]: ya. (Current State : order_detail)
+2023-07-04 23:04:15 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-04 23:04:15 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 23:04:15 - [Bot]: Apa merk laptop yang ingin Anda beli?
+2023-07-04 23:04:19 - [User]: Samsung. (Current State : order_detail)
+2023-07-04 23:04:19 - [Bot]: Berikut daftar tipe laptop Samsung yang tersedia
+2023-07-04 23:04:19 - [Bot]: ['Chromebook 4', 'Galaxy Book 2 Pro 360', 'Galaxy Book Flex 2', 'Galaxy Book Pro', 'ATIV UltraBook']
+2023-07-04 23:04:19 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-04 23:04:26 - [User]: Galaxy Book Pro. (Current State : order_detail)
+2023-07-04 23:04:26 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 23:04:26 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 23:04:29 - [User]: 2. (Current State : order)
+2023-07-04 23:04:29 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-04 23:04:36 - [User]: tidak. (Current State : ask)
+2023-07-04 23:04:36 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:04:36 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 23:04:43 - [User]: beli laptop asus. (Current State : order_detail)
+2023-07-04 23:04:43 - [Bot]: Berikut daftar tipe laptop Asus yang tersedia
+2023-07-04 23:04:43 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-04 23:04:43 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-04 23:04:48 - [User]: ROG Strix GL553VD. (Current State : order_detail)
+2023-07-04 23:04:48 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 23:04:48 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 23:04:51 - [User]: 3. (Current State : order)
+2023-07-04 23:04:51 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-04 23:04:51 - [Bot]: Id Produk: 30
+Produk: Asus Rog strix gl553vd
+Jumlah: 3
+Harga: Rp. 14,875,000
+Total: Rp. 44,625,000
+2023-07-04 23:04:51 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-04 23:06:41 - [User]: Berapa harga laptop apple macbook air m2 2022?. (Current State : order_detail)
+2023-07-04 23:06:41 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 23:06:41 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 23:07:18 - [User]: Berapa harga laptop apple macbook air m2 2022?. (Current State : order_detail)
+2023-07-04 23:07:18 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 23:07:18 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 23:07:45 - [User]: 1. (Current State : order_detail)
+2023-07-04 23:07:45 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 23:07:45 - [Bot]: ['macbook air m2 2022', 'macbook air m2 2022']
+2023-07-04 23:07:45 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 23:07:54 - [User]: macbook air m2 2022. (Current State : order_detail)
+2023-07-04 23:07:54 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 23:07:54 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 23:07:57 - [User]: 1. (Current State : order)
+2023-07-04 23:07:57 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-04 23:07:57 - [Bot]: Id Produk: 13
+Produk: Apple Macbook air m2 2022
+Jumlah: 1
+Harga: Rp. 16,460,000
+Total: Rp. 16,460,000
+2023-07-04 23:07:57 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-04 23:17:53 - [User]: Berapa harga laptop macbook pro m2 2022. (Current State : ask_price)
+2023-07-04 23:17:53 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-04 23:17:53 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-04 23:17:53 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 23:17:53 - [Bot]: Merk apa yang Anda cari?
+2023-07-04 23:18:03 - [User]: Berapa harga laptop apple macbook pro m2 2022?. (Current State : ask_price)
+2023-07-04 23:18:03 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 23:18:03 - [Bot]: ['macbook pro 13 inch 2018', 'macbook pro 16-inch 2019', 'macbook air m2 2022', 'macbook pro 13inch 2017', 'macbook pro 13-inch 2020', 'macbook pro m1 13 inch 2020']
+2023-07-04 23:18:03 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 23:18:20 - [User]: macbook air m2 2022. (Current State : ask_price)
+2023-07-04 23:18:20 - [Bot]: Harga laptop Apple Macbook air m2 2022 adalah Rp. 16,460,000.
+2023-07-04 23:18:20 - [Bot]: Apakah Anda tertarik?
+2023-07-04 23:18:51 - [User]: Berapa harga laptop apple macbook air m2 2022?. (Current State : ask_price)
+2023-07-04 23:18:51 - [Bot]: Harga laptop Apple Macbook air m2 2022 adalah Rp. 16,460,000.
+2023-07-04 23:18:51 - [Bot]: Apakah Anda tertarik?
+2023-07-04 23:19:11 - [User]: Berapa harga laptop apple macbook air m2?. (Current State : ask_price)
+2023-07-04 23:19:11 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 23:19:11 - [Bot]: ['macbook air 2020', 'macbook air m1 2020', 'macbook air 13-inch', 'macbook air m2 2022']
+2023-07-04 23:19:11 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 23:19:17 - [User]: macbook air m2 2022. (Current State : ask_price)
+2023-07-04 23:19:17 - [Bot]: Harga laptop Apple Macbook air m2 2022 adalah Rp. 16,460,000.
+2023-07-04 23:19:17 - [Bot]: Apakah Anda tertarik?
+2023-07-04 23:22:32 - [User]: Berapa harga laptop apple macbook air m2 2022?. (Current State : ask_price)
+2023-07-04 23:22:32 - [Bot]: Harga laptop Apple Macbook air m2 2022 adalah Rp. 16,460,000.
+2023-07-04 23:22:32 - [Bot]: Apakah Anda tertarik?
+2023-07-04 23:22:49 - [User]: Berapa harga laptop macbook air m2 2022?. (Current State : ask_price)
+2023-07-04 23:22:49 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-04 23:22:49 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-04 23:22:49 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 23:22:49 - [Bot]: Merk apa yang Anda cari?
+2023-07-04 23:23:03 - [User]: Berapa harga laptop macbook air m2 2022?. (Current State : ask_price)
+2023-07-04 23:23:03 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-04 23:23:03 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-04 23:23:03 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 23:23:03 - [Bot]: Merk apa yang Anda cari?
+2023-07-04 23:23:10 - [User]: Apple. (Current State : ask_price)
+2023-07-04 23:23:10 - [Bot]: Harga laptop Apple Macbook air m2 2022 adalah Rp. 16,460,000.
+2023-07-04 23:23:10 - [Bot]: Apakah Anda tertarik?
+2023-07-04 23:24:47 - [User]: Berikan rekomendasi laptop apple?. (Current State : recommendation)
+2023-07-04 23:24:47 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-04 23:24:47 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-04 23:24:47 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 23:24:58 - [User]: MacBook Air M2 2022. (Current State : recommendation)
+2023-07-04 23:24:58 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 23:25:02 - [User]: tidak. (Current State : ask)
+2023-07-04 23:25:02 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:25:02 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 23:26:21 - [User]: Berapa harga laptop apple macbook air m2 2022?. (Current State : ask_price)
+2023-07-04 23:26:21 - [Bot]: Harga laptop Apple Macbook air m2 2022 adalah Rp. 16,460,000.
+2023-07-04 23:26:21 - [Bot]: Apakah Anda tertarik?
+2023-07-04 23:27:19 - [User]: tidak. (Current State : exit)
+2023-07-04 23:27:19 - [Bot]: Terima kasih telah menggunakan layanan chatbot ecommerce kami :)
+2023-07-04 23:27:19 - [Bot]: Jika Anda memiliki pertanyaan lain di masa depan, jangan ragu untuk kembali lagi. Semoga harimu menyenangkan!
+2023-07-04 23:27:37 - [User]: Spek laptop apple macbook air m2 2022?. (Current State : greeting)
+2023-07-04 23:27:37 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-04 23:27:37 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-04 23:27:37 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:27:52 - [User]: Spek laptop apple macbook air m2 2022?. (Current State : ask_specification)
+2023-07-04 23:27:52 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-04 23:29:36 - [User]: tidak. (Current State : ask)
+2023-07-04 23:29:36 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:29:36 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 23:29:48 - [User]: Apakah laptop apple macbook air 2019 masih ada stoknya?. (Current State : ask_stock)
+2023-07-04 23:29:48 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 23:29:48 - [Bot]: ['macbook pro 16-inch 2019', 'macbook air 2020', 'macbook air m1 2020', 'macbook air 13-inch', 'macbook air m2 2022']
+2023-07-04 23:29:48 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 23:29:53 - [User]: macbook pro 16-inch 2019. (Current State : ask_stock)
+2023-07-04 23:29:53 - [Bot]: Stok untuk laptop Apple Macbook pro 16-inch 2019 ada 350 unit
+2023-07-04 23:29:53 - [Bot]: Apakah Anda tertarik?
+2023-07-04 23:30:50 - [User]: gak. (Current State : ask)
+2023-07-04 23:30:50 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:30:50 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 23:31:49 - [User]: Saya mau beli laptop apple macbook air 2019. (Current State : ask_specification)
+2023-07-04 23:31:49 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-04 23:32:16 - [User]: tidak. (Current State : ask)
+2023-07-04 23:32:16 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:32:16 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 23:32:21 - [User]: Saya mau beli laptop apple macbook air 2019. (Current State : order_detail)
+2023-07-04 23:32:21 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-04 23:32:21 - [Bot]: ['macbook pro 16-inch 2019', 'macbook air 2020', 'macbook air m1 2020', 'macbook air 13-inch', 'macbook air m2 2022']
+2023-07-04 23:32:21 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-04 23:32:26 - [User]: macbook pro 16-inch 2019. (Current State : order_detail)
+2023-07-04 23:32:26 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-04 23:32:26 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-04 23:32:31 - [User]: 30. (Current State : auth)
+2023-07-04 23:32:31 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-04 23:32:39 - [User]: sudah. (Current State : login)
+2023-07-04 23:32:39 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-04 23:32:39 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-04 23:32:39 - [Bot]: Masukkan email Anda
+2023-07-04 23:32:44 - [User]: alvin@mail.com. (Current State : login)
+2023-07-04 23:32:44 - [Bot]: Masukkan password Anda
+2023-07-04 23:32:46 - [User]: 123. (Current State : order)
+2023-07-04 23:32:46 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-04 23:32:50 - [User]: ya. (Current State : order)
+2023-07-04 23:32:50 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-04 23:32:50 - [Bot]: Id Produk: 18
+Produk: Apple Macbook pro 16-inch 2019
+Jumlah: 30
+Harga: Rp. 23,565,000
+Total: Rp. 706,950,000
+2023-07-04 23:32:50 - [Bot]: Apakah Anda ingin membeli laptop lain?
+
+# HENI
+2023-07-04 23:55:11 - [User]: rekomen laptop. (Current State : recommendation)
+2023-07-04 23:55:11 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-04 23:55:11 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-04 23:55:11 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-04 23:55:28 - [User]: MSI. (Current State : recommendation)
+2023-07-04 23:55:28 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Msi
+2023-07-04 23:55:28 - [Bot]: ['Titan GT77', 'GE76 Raider', 'CROSSHAIR 15', 'Prestige 14', 'Alpha 15']
+2023-07-04 23:55:28 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 23:55:41 - [User]: Prestige 14. (Current State : recommendation)
+2023-07-04 23:55:41 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-04 23:55:47 - [User]: ga. (Current State : ask)
+2023-07-04 23:55:47 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:55:47 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 23:57:16 - [User]: harga laptop lenovo. (Current State : ask_price)
+2023-07-04 23:57:16 - [Bot]: Berikut list harga laptop Lenovo dengan tipenya
+2023-07-04 23:57:16 - [Bot]: ['IdeaPad Slim 3 14ALC6 : Rp. 6,199,000', 'IdeaPad Slim 5 Pro : Rp. 7,400,000', 'IdeaPad Flex 5 : Rp. 14,699,000', 'Yoga Slim 7i Pro : Rp. 13,899,900', 'Legion 5 Pro : Rp. 18,799,000', 'ThinkPad T460 : Rp. 15,299,000', 'ThinkBook 14s : Rp. 9,193,000', 'Ideapad L340 : Rp. 5,678,000', 'ThinkPad Yoga 11e : Rp. 1,911,000']
+2023-07-04 23:57:16 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-04 23:57:50 - [User]: IdeaPad Flex 5. (Current State : ask_price)
+2023-07-04 23:57:50 - [Bot]: Harga laptop Lenovo Ideapad flex 5 adalah Rp. 14,699,000.
+2023-07-04 23:57:50 - [Bot]: Apakah Anda tertarik?
+2023-07-04 23:58:15 - [User]: blm. (Current State : ask)
+2023-07-04 23:58:15 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:58:15 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-04 23:59:14 - [User]: spek laptop lenovo legion. (Current State : ask_specification)
+2023-07-04 23:59:14 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-04 23:59:24 - [User]: tida. (Current State : ask_specification)
+2023-07-04 23:59:24 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-04 23:59:30 - [User]: tidak. (Current State : ask)
+2023-07-04 23:59:30 - [Bot]: Apa yang bisa saya bantu?
+2023-07-04 23:59:30 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 00:00:29 - [User]: ada laptop msi prestige?. (Current State : ask)
+2023-07-05 00:00:29 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 00:00:29 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 00:00:45 - [User]: ada msi prestige?. (Current State : ask_stock)
+2023-07-05 00:00:45 - [Bot]: Stok untuk laptop Msi Prestige 14 ada 642 unit
+2023-07-05 00:00:45 - [Bot]: Apakah Anda tertarik?
+2023-07-05 00:00:57 - [User]: ga. (Current State : ask)
+2023-07-05 00:00:57 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 00:00:57 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 00:01:06 - [User]: ada laptop msi prestige?. (Current State : ask)
+2023-07-05 00:01:06 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 00:01:06 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 00:01:17 - [User]: gajadi. (Current State : exit)
+2023-07-05 00:01:17 - [Bot]: Terima kasih telah menggunakan layanan chatbot ecommerce kami :)
+2023-07-05 00:01:17 - [Bot]: Jika Anda memiliki pertanyaan lain di masa depan, jangan ragu untuk kembali lagi. Semoga harimu menyenangkan!
+2023-07-05 00:03:25 - [User]: acer ada ga ya. (Current State : greeting)
+2023-07-05 00:03:25 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-05 00:03:25 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-05 00:03:25 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 00:03:34 - [User]: acer ada g. (Current State : ask_stock)
+2023-07-05 00:03:34 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Acer
+2023-07-05 00:03:34 - [Bot]: ['Aspire ES1-432', 'Spin 1 SP111-33', 'Aspire ES1-132', 'Aspire 3 A314-32', 'Aspire Z3-451', 'Aspire 3 A315-41', 'Spin 3 SP314-51', 'Aspire 3 A314-21', 'Aspire E5-473G']
+2023-07-05 00:03:34 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-05 00:03:43 - [User]: Aspire Z3-451. (Current State : ask_stock)
+2023-07-05 00:03:43 - [Bot]: Stok untuk laptop Acer Aspire z3-451 ada 459 unit
+2023-07-05 00:03:43 - [Bot]: Apakah Anda tertarik?
+2023-07-05 00:03:48 - [User]: ya. (Current State : order_detail)
+2023-07-05 00:03:48 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 00:03:48 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 00:03:56 - [User]: 2. (Current State : auth)
+2023-07-05 00:03:56 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 00:04:02 - [User]: belum. (Current State : register)
+2023-07-05 00:04:02 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 00:04:02 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 00:04:10 - [User]: Nurul Akhni. (Current State : register)
+2023-07-05 00:04:10 - [Bot]: Masukkan email Anda
+2023-07-05 00:04:10 - [Bot]: Contoh: nilam@mail.com
+2023-07-05 00:04:16 - [User]: nurul@mail.com. (Current State : register)
+2023-07-05 00:04:16 - [Bot]: Masukkan password
+2023-07-05 00:04:21 - [User]: 123. (Current State : login)
+2023-07-05 00:04:21 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-05 00:04:21 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-05 00:04:21 - [Bot]: Masukkan email Anda
+2023-07-05 00:04:28 - [User]: nurul@mail.com. (Current State : login)
+2023-07-05 00:04:28 - [Bot]: Masukkan password Anda
+2023-07-05 00:04:30 - [User]: 123. (Current State : order)
+2023-07-05 00:04:30 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-05 00:04:35 - [User]: ya. (Current State : order)
+2023-07-05 00:04:35 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-05 00:04:35 - [Bot]: Id Produk: 6
+Produk: Acer Aspire z3-451
+Jumlah: 2
+Harga: Rp. 4,150,000
+Total: Rp. 8,300,000
+2023-07-05 00:04:35 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-05 00:04:44 - [User]: tidak. (Current State : ask)
+2023-07-05 00:04:44 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 00:04:44 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 00:05:00 - [User]: saya mau beli laptop msi prestige 14. (Current State : order_detail)
+2023-07-05 00:05:00 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 00:05:00 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 00:05:04 - [User]: 3. (Current State : order)
+2023-07-05 00:05:04 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-05 00:05:04 - [Bot]: Id Produk: 78
+Produk: Msi Prestige 14
+Jumlah: 3
+Harga: Rp. 15,924,500
+Total: Rp. 47,773,500
+2023-07-05 00:05:04 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-05 00:05:55 - [User]: ga. (Current State : ask)
+2023-07-05 00:05:55 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 00:05:55 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 00:06:00 - [User]: ga . (Current State : exit)
+2023-07-05 00:06:00 - [Bot]: Terima kasih telah menggunakan layanan chatbot ecommerce kami :)
+2023-07-05 00:06:00 - [Bot]: Jika Anda memiliki pertanyaan lain di masa depan, jangan ragu untuk kembali lagi. Semoga harimu menyenangkan!
+
+# Fadel
+2023-07-05 10:42:37 - [User]: laptop mac. (Current State : recommendation)
+2023-07-05 10:42:37 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 10:42:37 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 10:42:37 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 10:42:44 - [User]: mac. (Current State : recommendation)
+2023-07-05 10:42:44 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 10:42:44 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 10:42:44 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 10:43:03 - [User]: Apple. (Current State : greeting)
+2023-07-05 10:43:03 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:43:03 - [User]: HP. (Current State : greeting)
+2023-07-05 10:43:03 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:43:10 - [User]: apple. (Current State : greeting)
+2023-07-05 10:43:10 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:43:13 - [User]: Apple. (Current State : greeting)
+2023-07-05 10:43:13 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:43:28 - [User]: ASUS. (Current State : greeting)
+2023-07-05 10:43:28 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:43:31 - [User]: latop. (Current State : greeting)
+2023-07-05 10:43:31 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:43:34 - [User]: laptop. (Current State : recommendation)
+2023-07-05 10:43:34 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 10:43:34 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 10:43:34 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 10:43:40 - [User]: Apple. (Current State : recommendation)
+2023-07-05 10:43:40 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-05 10:43:40 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-05 10:43:40 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 10:43:50 - [User]: pro m1. (Current State : recommendation)
+2023-07-05 10:43:50 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 10:43:57 - [User]: iya. (Current State : order_detail)
+2023-07-05 10:43:57 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 10:43:57 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 10:44:02 - [User]: 1. (Current State : auth)
+2023-07-05 10:44:02 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 10:44:07 - [User]: blm. (Current State : register)
+2023-07-05 10:44:07 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 10:44:07 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 10:44:16 - [User]: fadel. (Current State : register)
+2023-07-05 10:44:16 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 10:44:16 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 10:44:24 - [User]: fadel m. (Current State : greeting)
+2023-07-05 10:44:24 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:44:29 - [User]: nilam musdalifa. (Current State : greeting)
+2023-07-05 10:44:29 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:44:34 - [User]: Nilam musdalifa. (Current State : greeting)
+2023-07-05 10:44:34 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:44:40 - [User]: fade. (Current State : greeting)
+2023-07-05 10:44:40 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:44:44 - [User]: fadel muhammad. (Current State : greeting)
+2023-07-05 10:44:44 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 10:45:33 - [User]: Berikan rekomendasi laptop asus. (Current State : register)
+2023-07-05 10:45:33 - [Bot]: Masukkan email Anda
+2023-07-05 10:45:33 - [Bot]: Contoh: nilam@mail.com
+2023-07-05 10:45:49 - [User]: Laptop apa aja yang bagus. (Current State : register)
+2023-07-05 10:45:49 - [Bot]: Masukkan email Anda
+2023-07-05 10:45:49 - [Bot]: Contoh: nilam@mail.com
+2023-07-05 10:46:19 - [User]: Berikan rekomendasi laptop asus. (Current State : recommendation)
+2023-07-05 10:46:19 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 10:46:19 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 10:46:19 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 10:46:45 - [User]: Laptop apa aja yang bagus?. (Current State : recommendation)
+2023-07-05 10:46:45 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 10:46:45 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 10:46:45 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 10:48:15 - [User]: Berapa harga laptop....?. (Current State : register)
+2023-07-05 10:48:15 - [Bot]: Masukkan email Anda
+2023-07-05 10:48:15 - [Bot]: Contoh: nilam@mail.com
+2023-07-05 10:48:46 - [User]: 'Berikan rekomendasi laptop asus. (Current State : recommendation)
+2023-07-05 10:48:46 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 10:48:46 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 10:48:46 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 10:48:49 - [User]: ROG Strix GL553VD. (Current State : recommendation)
+2023-07-05 10:48:49 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 10:48:55 - [User]: tidak. (Current State : ask)
+2023-07-05 10:48:55 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:48:55 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:49:17 - [User]: 'Berapa harga laptop asus?. (Current State : ask_price)
+2023-07-05 10:49:17 - [Bot]: Berikut list harga laptop Asus dengan tipenya
+2023-07-05 10:49:17 - [Bot]: ['VivoBook X540YA : Rp. 3,700,000', 'TUF Gaming FX505DY : Rp. 9,999,000', 'ZenBook 13 : Rp. 8,999,000', 'ROG Zephyrus G14 : Rp. 20,499,000', 'ROG Strix Scar 17 : Rp. 59,999,000', 'Transformer Book : Rp. 3,199,000', 'TUF Gaming F15 : Rp. 14,799,000', 'Vivobook Pro 15 : Rp. 13,029,000', 'ROG Strix GL553VD : Rp. 14,875,000', 'VivoBook 14 A416JA : Rp. 5,699,000']
+2023-07-05 10:49:17 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 10:49:24 - [User]: Vivobook Pro 15. (Current State : ask_price)
+2023-07-05 10:49:24 - [Bot]: Harga laptop Asus Vivobook pro 15 adalah Rp. 13,029,000.
+2023-07-05 10:49:24 - [Bot]: Apakah Anda tertarik?
+2023-07-05 10:49:28 - [User]: tidak. (Current State : ask)
+2023-07-05 10:49:28 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:49:28 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:51:05 - [User]: apple. (Current State : ask_specification)
+2023-07-05 10:51:05 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 10:51:05 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 10:51:05 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 10:51:09 - [User]: Macbook Pro 13-inch 2020. (Current State : ask_specification)
+2023-07-05 10:51:09 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 10:51:15 - [User]: tidak. (Current State : ask)
+2023-07-05 10:51:15 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:51:15 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:51:38 - [User]: tidak. (Current State : ask)
+2023-07-05 10:51:38 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:51:38 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:51:50 - [User]: apple. (Current State : ask_specification)
+2023-07-05 10:51:50 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 10:51:50 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 10:51:50 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 10:51:55 - [User]: MacBook Pro 13inch 2017. (Current State : ask_specification)
+2023-07-05 10:51:55 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 10:52:19 - [User]: tidak. (Current State : ask)
+2023-07-05 10:52:19 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:52:19 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:56:12 - [User]: tidak. (Current State : ask)
+2023-07-05 10:56:12 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:56:12 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:56:27 - [User]: tidak. (Current State : ask)
+2023-07-05 10:56:27 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:56:27 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:56:42 - [User]: berpaa harga laptop mac. (Current State : ask_price)
+2023-07-05 10:56:42 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 10:56:42 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 10:56:42 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 10:56:42 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 10:58:39 - [User]: spek laptop asus. (Current State : ask_price)
+2023-07-05 10:58:39 - [Bot]: Berikut list harga laptop Asus dengan tipenya
+2023-07-05 10:58:39 - [Bot]: ['VivoBook X540YA : Rp. 3,700,000', 'TUF Gaming FX505DY : Rp. 9,999,000', 'ZenBook 13 : Rp. 8,999,000', 'ROG Zephyrus G14 : Rp. 20,499,000', 'ROG Strix Scar 17 : Rp. 59,999,000', 'Transformer Book : Rp. 3,199,000', 'TUF Gaming F15 : Rp. 14,799,000', 'Vivobook Pro 15 : Rp. 13,029,000', 'ROG Strix GL553VD : Rp. 14,875,000', 'VivoBook 14 A416JA : Rp. 5,699,000']
+2023-07-05 10:58:39 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 10:58:49 - [User]: TUF Gaming F15. (Current State : ask_price)
+2023-07-05 10:58:49 - [Bot]: Harga laptop Asus Tuf gaming f15 adalah Rp. 14,799,000.
+2023-07-05 10:58:49 - [Bot]: Apakah Anda tertarik?
+2023-07-05 10:58:54 - [User]: tidak. (Current State : ask)
+2023-07-05 10:58:54 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:58:54 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:59:02 - [User]: spek laptop asus. (Current State : ask_specification)
+2023-07-05 10:59:02 - [Bot]: Silahkan pilih tipe laptop Asus terlebih dahulu
+2023-07-05 10:59:02 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-05 10:59:02 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 10:59:08 - [User]: VivoBook X540YA. (Current State : ask_specification)
+2023-07-05 10:59:08 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 10:59:26 - [User]: tidak. (Current State : ask)
+2023-07-05 10:59:26 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 10:59:26 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 10:59:44 - [User]: apple. (Current State : ask_specification)
+2023-07-05 10:59:44 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 10:59:44 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 10:59:44 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 10:59:48 - [User]: Macbook Pro M1 13 Inch 2020. (Current State : ask_specification)
+2023-07-05 10:59:48 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 11:00:13 - [User]: tidak. (Current State : ask)
+2023-07-05 11:00:13 - [User]: tidak. (Current State : greeting)
+2023-07-05 11:00:14 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 11:00:14 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-05 11:00:14 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 11:00:14 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-05 11:00:14 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 11:00:25 - [User]: apple. (Current State : ask_specification)
+2023-07-05 11:00:25 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 11:00:25 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 11:00:25 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 11:00:29 - [User]: MacBook Pro 13 Inch 2018. (Current State : ask_specification)
+2023-07-05 11:00:29 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 11:01:10 - [User]: apple. (Current State : ask_specification)
+2023-07-05 11:01:10 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 11:01:10 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 11:01:10 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 11:01:18 - [User]: spek laptop apple. (Current State : ask_specification)
+2023-07-05 11:01:18 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 11:01:18 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 11:01:18 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 11:01:26 - [User]: spek laptop asus. (Current State : ask_specification)
+2023-07-05 11:01:26 - [Bot]: Silahkan pilih tipe laptop Asus terlebih dahulu
+2023-07-05 11:01:26 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-05 11:01:26 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 11:02:31 - [User]: tidak. (Current State : greeting)
+2023-07-05 11:02:31 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-05 11:02:31 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-05 11:02:31 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 11:02:40 - [User]: apakah laptop apple ada?. (Current State : ask_stock)
+2023-07-05 11:02:40 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Apple
+2023-07-05 11:02:40 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 11:02:40 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-05 11:02:44 - [User]: MacBook Pro 13inch 2017. (Current State : ask_stock)
+2023-07-05 11:02:44 - [Bot]: Stok untuk laptop Apple Macbook pro 13inch 2017 ada 486 unit
+2023-07-05 11:02:44 - [Bot]: Apakah Anda tertarik?
+2023-07-05 11:03:46 - [User]: ya. (Current State : order_detail)
+2023-07-05 11:03:46 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 11:03:46 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 11:03:49 - [User]: 2. (Current State : auth)
+2023-07-05 11:03:49 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 11:03:53 - [User]: sudah. (Current State : login)
+2023-07-05 11:03:53 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-05 11:03:53 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-05 11:03:53 - [Bot]: Masukkan email Anda
+2023-07-05 11:04:01 - [User]: fadel@gmail.com. (Current State : login)
+2023-07-05 11:04:01 - [Bot]: Masukkan password Anda
+2023-07-05 11:04:23 - [User]: fadel123. (Current State : login)
+2023-07-05 11:04:23 - [Bot]: Maaf, email/pass anda salah ☹️
+2023-07-05 11:04:23 - [Bot]: Silahkan melakukan login kembali!
+2023-07-05 11:04:23 - [Bot]: Masukkan email Anda
+2023-07-05 11:04:37 - [User]: belum punya akun. (Current State : login)
+2023-07-05 11:04:37 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-05 11:04:37 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-05 11:04:37 - [Bot]: Masukkan email Anda
+2023-07-05 11:21:26 - [User]: spek laptop apple. (Current State : ask_specification)
+2023-07-05 11:21:26 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 11:21:26 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 11:21:26 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 11:21:31 - [User]: MacBook Pro 13 Inch 2018. (Current State : ask_specification)
+2023-07-05 11:21:31 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 11:21:35 - [User]: iya. (Current State : order_detail)
+2023-07-05 11:21:35 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 11:21:35 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 11:21:39 - [User]: 3. (Current State : auth)
+2023-07-05 11:21:39 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 11:21:43 - [User]: blm. (Current State : register)
+2023-07-05 11:21:43 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 11:21:43 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 11:21:49 - [User]: fadel. (Current State : register)
+2023-07-05 11:21:49 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 11:21:49 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 11:22:02 - [User]: fadel, fadel@gmail.com, fadel123. (Current State : register)
+2023-07-05 11:22:02 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 11:22:02 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 11:22:15 - [User]: nama : fadel. (Current State : register)
+2023-07-05 11:22:15 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 11:22:15 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 11:23:51 - [User]: Fadel. (Current State : greeting)
+2023-07-05 11:23:51 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 11:24:08 - [User]: fadel. (Current State : greeting)
+2023-07-05 11:24:08 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 11:24:11 - [User]: Fadel Muhammad. (Current State : greeting)
+2023-07-05 11:24:11 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 11:24:14 - [User]: Fadel. (Current State : greeting)
+2023-07-05 11:24:14 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 11:25:26 - [User]: asus. (Current State : greeting)
+2023-07-05 11:25:26 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 11:25:34 - [User]: apakah ada apple. (Current State : ask_stock)
+2023-07-05 11:25:34 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Apple
+2023-07-05 11:25:34 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 11:25:34 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-05 11:25:37 - [User]: MacBook Pro 13 Inch 2018. (Current State : ask_stock)
+2023-07-05 11:25:37 - [Bot]: Stok untuk laptop Apple Macbook pro 13 inch 2018 ada 250 unit
+2023-07-05 11:25:37 - [Bot]: Apakah Anda tertarik?
+2023-07-05 11:25:41 - [User]: ya. (Current State : order_detail)
+2023-07-05 11:25:41 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 11:25:41 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 11:25:44 - [User]: 1. (Current State : auth)
+2023-07-05 11:25:44 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 11:25:48 - [User]: belum. (Current State : register)
+2023-07-05 11:25:48 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 11:25:48 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 11:25:53 - [User]: Fadel. (Current State : register)
+2023-07-05 11:25:53 - [Bot]: Masukkan email Anda
+2023-07-05 11:25:53 - [Bot]: Contoh: nilam@mail.com
+2023-07-05 11:25:59 - [User]: fadel@gmail.com. (Current State : register)
+2023-07-05 11:25:59 - [Bot]: Masukkan password
+2023-07-05 11:26:03 - [User]: fadel123. (Current State : login)
+2023-07-05 11:26:03 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-05 11:26:03 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-05 11:26:03 - [Bot]: Masukkan email Anda
+2023-07-05 11:26:11 - [User]: fadel@gmail.com. (Current State : login)
+2023-07-05 11:26:11 - [Bot]: Masukkan password Anda
+2023-07-05 11:26:14 - [User]: fadel12. (Current State : login)
+2023-07-05 11:26:14 - [Bot]: Maaf, email/pass anda salah ☹️
+2023-07-05 11:26:14 - [Bot]: Silahkan melakukan login kembali!
+2023-07-05 11:26:14 - [Bot]: Masukkan email Anda
+2023-07-05 11:26:21 - [User]: fadel@gmail.com. (Current State : login)
+2023-07-05 11:26:21 - [Bot]: Masukkan password Anda
+2023-07-05 11:26:25 - [User]: fadel123. (Current State : order)
+2023-07-05 11:26:25 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-05 11:26:29 - [User]: ya. (Current State : order)
+2023-07-05 11:26:29 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-05 11:26:29 - [Bot]: Id Produk: 19
+Produk: Apple Macbook pro 13 inch 2018
+Jumlah: 1
+Harga: Rp. 11,950,000
+Total: Rp. 11,950,000
+2023-07-05 11:26:29 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-05 11:26:45 - [User]: tidak. (Current State : ask)
+2023-07-05 11:26:45 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 11:26:45 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 11:28:32 - [User]: merk laptop mac. (Current State : recommendation)
+2023-07-05 11:28:32 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 11:28:32 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 11:28:32 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 11:28:40 - [User]: mac. (Current State : recommendation)
+2023-07-05 11:28:40 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 11:28:40 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 11:28:40 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 11:28:45 - [User]: asu. (Current State : recommendation)
+2023-07-05 11:28:45 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 11:28:45 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 11:28:45 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 11:28:49 - [User]: asus. (Current State : recommendation)
+2023-07-05 11:28:49 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 11:28:49 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 11:28:49 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 11:29:02 - [User]: spek laptop snsv. (Current State : recommendation)
+2023-07-05 11:29:02 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 11:29:02 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 11:29:02 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 11:29:38 - [User]: harga laptop snsv. (Current State : ask_price)
+2023-07-05 11:29:38 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 11:29:38 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 11:29:38 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 11:29:38 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 11:30:20 - [User]: harga laptop snsv. (Current State : ask_price)
+2023-07-05 11:30:20 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 11:30:20 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 11:30:20 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 11:30:20 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 11:30:55 - [User]: rekomendasi snsv. (Current State : greeting)
+2023-07-05 11:30:55 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 11:31:06 - [User]: spesifikasi laptop snsv. (Current State : greeting)
+2023-07-05 11:31:06 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 11:31:18 - [User]: spek laptop asus. (Current State : ask_specification)
+2023-07-05 11:31:18 - [Bot]: Silahkan pilih tipe laptop Asus terlebih dahulu
+2023-07-05 11:31:18 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-05 11:31:18 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 11:31:26 - [User]: spesifikasi laptop asus. (Current State : greeting)
+2023-07-05 11:31:26 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 11:59:24 - [User]: rekomendasi laptop bagus. (Current State : recommendation)
+2023-07-05 11:59:24 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 11:59:24 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 11:59:24 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 11:59:33 - [User]: MSI. (Current State : recommendation)
+2023-07-05 11:59:33 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Msi
+2023-07-05 11:59:33 - [Bot]: ['Titan GT77', 'GE76 Raider', 'CROSSHAIR 15', 'Prestige 14', 'Alpha 15']
+2023-07-05 11:59:33 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 11:59:41 - [User]: Prestige 14. (Current State : recommendation)
+2023-07-05 11:59:41 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 12:01:16 - [User]: tidak. (Current State : greeting)
+2023-07-05 12:01:16 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-05 12:01:16 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-05 12:01:16 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 12:01:25 - [User]: berapa harga laptop msi . (Current State : ask_price)
+2023-07-05 12:01:25 - [Bot]: Berikut list harga laptop Msi dengan tipenya
+2023-07-05 12:01:25 - [Bot]: ['Katana GF66 : Rp. 11,499,000', 'Prestige 14 : Rp. 15,924,500', 'Modern B11MO : Rp. 8,799,000', 'Modern 14 C12M : Rp. 11,641,500', 'Modern 14 B5M : Rp. 9,799,000', 'GL638RD : Rp. 8,500,000', 'CROSSHAIR 15 : Rp. 23,999,000', 'Titan GT77 : Rp. 76,999,000', 'Alpha 15 : Rp. 14,499,000', 'GE76 Raider : Rp. 71,999,000']
+2023-07-05 12:01:25 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 12:01:45 - [User]: Titan GT77. (Current State : ask_price)
+2023-07-05 12:01:45 - [Bot]: Harga laptop Msi Titan gt77 adalah Rp. 76,999,000.
+2023-07-05 12:01:45 - [Bot]: Apakah Anda tertarik?
+2023-07-05 12:04:26 - [User]: tidak . (Current State : ask)
+2023-07-05 12:04:26 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 12:04:26 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 12:04:31 - [User]: spek laptop msi . (Current State : ask_specification)
+2023-07-05 12:04:31 - [Bot]: Silahkan pilih tipe laptop Msi terlebih dahulu
+2023-07-05 12:04:31 - [Bot]: ['Katana GF66', 'Prestige 14', 'Modern B11MO', 'Modern 14 C12M', 'Modern 14 B5M', 'GL638RD', 'CROSSHAIR 15', 'Titan GT77', 'Alpha 15', 'GE76 Raider']
+2023-07-05 12:04:31 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 12:04:38 - [User]: Modern B11MO. (Current State : ask_specification)
+2023-07-05 12:04:38 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 12:05:58 - [User]: tidak . (Current State : ask)
+2023-07-05 12:05:58 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 12:05:58 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 12:06:04 - [User]: laptop msi ada?. (Current State : ask)
+2023-07-05 12:06:04 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 12:06:04 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 12:08:11 - [User]: harga laptop apple. (Current State : ask_price)
+2023-07-05 12:08:11 - [Bot]: Harga laptop Msi Titan gt77 adalah Rp. 76,999,000.
+2023-07-05 12:08:11 - [Bot]: Apakah Anda tertarik?
+2023-07-05 12:25:37 - [User]: aptop msi ada ga?. (Current State : ask_stock)
+2023-07-05 12:25:37 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Msi
+2023-07-05 12:25:37 - [Bot]: ['Katana GF66', 'Prestige 14', 'Modern B11MO', 'Modern 14 C12M', 'Modern 14 B5M', 'GL638RD', 'CROSSHAIR 15', 'Titan GT77', 'Alpha 15', 'GE76 Raider']
+2023-07-05 12:25:37 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-05 12:25:58 - [User]: Katana GF66. (Current State : ask_stock)
+2023-07-05 12:25:58 - [Bot]: Stok untuk laptop Msi Katana gf66 ada 504 unit
+2023-07-05 12:25:58 - [Bot]: Apakah Anda tertarik?
+2023-07-05 12:27:08 - [User]: ya. (Current State : greeting)
+2023-07-05 12:27:08 - [Bot]: Halo, saya focha yang dapat membantu anda dalam pembelian laptop.
+2023-07-05 12:27:08 - [Bot]: Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.
+2023-07-05 12:27:08 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 12:29:35 - [User]: spek laptop apple. (Current State : ask_specification)
+2023-07-05 12:29:35 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 12:29:35 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 12:29:35 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 12:29:40 - [User]: MacBook Air 13-inch. (Current State : ask_specification)
+2023-07-05 12:29:40 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 12:29:50 - [User]: ya. (Current State : order_detail)
+2023-07-05 12:29:50 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 12:29:50 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 12:29:55 - [User]: 30. (Current State : auth)
+2023-07-05 12:29:55 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 12:30:00 - [User]: belum . (Current State : register)
+2023-07-05 12:30:00 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 12:30:00 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 12:30:07 - [User]: wina shabrina. (Current State : register)
+2023-07-05 12:30:07 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 12:30:07 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 12:30:18 - [User]: Wina Shabrina. (Current State : register)
+2023-07-05 12:30:18 - [Bot]: Masukkan email Anda
+2023-07-05 12:30:18 - [Bot]: Contoh: nilam@mail.com
+2023-07-05 12:30:25 - [User]: wina@gmail.com. (Current State : register)
+2023-07-05 12:30:25 - [Bot]: Masukkan password
+2023-07-05 12:30:30 - [User]: abcde. (Current State : login)
+2023-07-05 12:30:30 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-05 12:30:30 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-05 12:30:30 - [Bot]: Masukkan email Anda
+2023-07-05 12:30:40 - [User]: wina@gmail.com. (Current State : login)
+2023-07-05 12:30:40 - [Bot]: Masukkan password Anda
+2023-07-05 12:30:43 - [User]: abcde. (Current State : order)
+2023-07-05 12:30:43 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-05 12:30:48 - [User]: ya. (Current State : order)
+2023-07-05 12:30:48 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-05 12:30:48 - [Bot]: Id Produk: 12
+Produk: Apple Macbook air 13-inch
+Jumlah: 30
+Harga: Rp. 12,498,000
+Total: Rp. 374,940,000
+2023-07-05 12:30:48 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-05 12:31:00 - [User]: sudah cukup . (Current State : order_detail)
+2023-07-05 12:31:00 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 12:31:00 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 12:31:00 - [Bot]: Apa merk laptop yang ingin Anda beli?
+2023-07-05 12:31:06 - [User]: tidak. (Current State : ask)
+2023-07-05 12:31:06 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 12:31:06 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+
+# AUL
+2023-07-05 14:12:23 - [User]: Berikan rekomendasi laptop asus. (Current State : recommendation)
+2023-07-05 14:12:23 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:12:23 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:12:23 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:12:51 - [User]: Laptop apa aja yang bagus. (Current State : recommendation)
+2023-07-05 14:12:51 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:12:51 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:12:51 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:13:01 - [User]: asus. (Current State : recommendation)
+2023-07-05 14:13:01 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:13:01 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:13:01 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:13:49 - [User]: TUF Gaming F15. (Current State : greeting)
+2023-07-05 14:13:49 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 14:13:52 - [User]: Vivobook Pro 15. (Current State : greeting)
+2023-07-05 14:13:52 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 14:13:55 - [User]: ROG Strix Scar 17. (Current State : greeting)
+2023-07-05 14:13:55 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 14:14:01 - [User]: asus. (Current State : greeting)
+2023-07-05 14:14:01 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 14:15:49 - [User]: Berapa harga laptop. (Current State : recommendation)
+2023-07-05 14:15:49 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:15:49 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:15:49 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:16:51 - [User]: Berapa harga laptop. (Current State : ask_price)
+2023-07-05 14:16:51 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 14:16:51 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 14:16:51 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:16:51 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 14:17:00 - [User]: asus. (Current State : ask_price)
+2023-07-05 14:17:00 - [Bot]: Berikut list harga laptop Asus dengan tipenya
+2023-07-05 14:17:00 - [Bot]: ['VivoBook X540YA : Rp. 3,700,000', 'TUF Gaming FX505DY : Rp. 9,999,000', 'ZenBook 13 : Rp. 8,999,000', 'ROG Zephyrus G14 : Rp. 20,499,000', 'ROG Strix Scar 17 : Rp. 59,999,000', 'Transformer Book : Rp. 3,199,000', 'TUF Gaming F15 : Rp. 14,799,000', 'Vivobook Pro 15 : Rp. 13,029,000', 'ROG Strix GL553VD : Rp. 14,875,000', 'VivoBook 14 A416JA : Rp. 5,699,000']
+2023-07-05 14:17:00 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:17:41 - [User]: Laptop apa aja yang bagus. (Current State : recommendation)
+2023-07-05 14:17:41 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 14:17:41 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:17:41 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 14:19:09 - [User]: Berikan rekomendasi laptop asus. (Current State : recommendation)
+2023-07-05 14:19:09 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:19:09 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:19:09 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:19:16 - [User]: asus. (Current State : recommendation)
+2023-07-05 14:19:16 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:19:16 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:19:16 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:19:29 - [User]: Laptop apa aja yang bagus. (Current State : recommendation)
+2023-07-05 14:19:29 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:19:29 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:19:29 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:20:26 - [User]: Berapa harga laptop....?. (Current State : recommendation)
+2023-07-05 14:20:26 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 14:20:26 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:20:26 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 14:20:38 - [User]: apple. (Current State : recommendation)
+2023-07-05 14:20:38 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-05 14:20:38 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-05 14:20:38 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:20:52 - [User]: Macbook Pro M1 13 Inch 2020. (Current State : recommendation)
+2023-07-05 14:20:52 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 14:21:04 - [User]: tidak. (Current State : ask)
+2023-07-05 14:21:04 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 14:21:04 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 14:21:10 - [User]: Berapa harga laptop....?. (Current State : ask_price)
+2023-07-05 14:21:10 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 14:21:10 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 14:21:10 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:21:10 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 14:21:18 - [User]: HP. (Current State : ask_price)
+2023-07-05 14:21:18 - [Bot]: Berikut list harga laptop Hp dengan tipenya
+2023-07-05 14:21:18 - [Bot]: ['Pavilion x360 : Rp. 9,299,000', 'Pavilion 15 : Rp. 8,349,000', 'Notebook 14s-dk0073au : Rp. 3,550,000', 'EliteBook 820 G2 : Rp. 7,850,000', 'Notebook 14-AM016TX : Rp. 4,499,000', 'Elitebook 8460p : Rp. 3,400,000', '14S-CF1051TU : Rp. 4,400,000', 'Pavilion x360 : Rp. 7,099,000', 'Victus 16 : Rp. 19,164,000', 'ENVY 13 : Rp. 9,099,000']
+2023-07-05 14:21:18 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:21:24 - [User]: ENVY 13. (Current State : ask_price)
+2023-07-05 14:21:24 - [Bot]: Harga laptop Hp Envy 13 adalah Rp. 9,099,000.
+2023-07-05 14:21:24 - [Bot]: Apakah Anda tertarik?
+2023-07-05 14:21:31 - [User]: tidak. (Current State : ask)
+2023-07-05 14:21:31 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 14:21:31 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 14:21:57 - [User]: Berapa harga laptop....?. (Current State : recommendation)
+2023-07-05 14:21:57 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:21:57 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:21:57 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:22:06 - [User]: ROG Strix Scar 17. (Current State : recommendation)
+2023-07-05 14:22:06 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 14:22:45 - [User]: tidak. (Current State : ask)
+2023-07-05 14:22:45 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 14:22:45 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 14:22:52 - [User]: Berapa harga laptop....?. (Current State : ask_price)
+2023-07-05 14:22:52 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 14:22:52 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 14:22:52 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:22:52 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 14:23:00 - [User]: Xiaomi. (Current State : ask_price)
+2023-07-05 14:23:00 - [Bot]: Berikut list harga laptop Xiaomi dengan tipenya
+2023-07-05 14:23:00 - [Bot]: ['RedmiBook Pro 14 : Rp. 17,804,600', 'RedmiBook 15 : Rp. 4,554,000', 'Mi Notebook Air : Rp. 9,900,000', 'ELITEBOOK FOLIO G1 : Rp. 3,000,000', 'RedmiBook 14 : Rp. 15,645,000', 'Xiao Gang : Rp. 19,399,000', 'RedmiBook 13 R : Rp. 6,700,000', 'Notebook Pro : Rp. 10,858,200', 'Redmibook Pro 15 : Rp. 14,868,500', 'Mi Notebook 14 : Rp. 8,972,980']
+2023-07-05 14:23:00 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:23:06 - [User]: Mi Notebook Air. (Current State : ask_price)
+2023-07-05 14:23:06 - [Bot]: Harga laptop Xiaomi Mi notebook air adalah Rp. 9,900,000.
+2023-07-05 14:23:06 - [Bot]: Apakah Anda tertarik?
+2023-07-05 14:23:12 - [User]: tidak. (Current State : ask)
+2023-07-05 14:23:12 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 14:23:12 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 14:23:29 - [User]: Berikan rekomendasi laptop asus. (Current State : recommendation)
+2023-07-05 14:23:29 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Asus
+2023-07-05 14:23:29 - [Bot]: ['ROG Strix Scar 17', 'ROG Zephyrus G14', 'ROG Strix GL553VD', 'TUF Gaming F15', 'Vivobook Pro 15']
+2023-07-05 14:23:29 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:23:37 - [User]: ROG Zephyrus G14. (Current State : recommendation)
+2023-07-05 14:23:37 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 14:23:41 - [User]: tidak. (Current State : ask)
+2023-07-05 14:23:41 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 14:23:41 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 14:23:57 - [User]: Berapa harga laptop....?. (Current State : ask_price)
+2023-07-05 14:23:57 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 14:23:57 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 14:23:57 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:23:57 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 14:24:57 - [User]: Microsoft. (Current State : ask_price)
+2023-07-05 14:24:57 - [Bot]: Berikut list harga laptop Microsoft dengan tipenya
+2023-07-05 14:24:57 - [Bot]: ['Surface Pro 7 : Rp. 13,289,000', 'Surface Go 2 : Rp. 10,160,000', 'Surface Go : Rp. 6,674,000', 'Surface Pro X : Rp. 10,000,000', 'Surface Pro 6 : Rp. 12,928,000', 'Surface Pro 3 : Rp. 4,600,000', 'Surface Book 2  : Rp. 27,499,000', 'Surface Pro 4 : Rp. 6,600,000', 'Surface Pro 8 : Rp. 13,700,700', 'Surface Laptop 3 : Rp. 8,699,000']
+2023-07-05 14:24:57 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 14:25:01 - [User]: Surface Pro 8. (Current State : ask_price)
+2023-07-05 14:25:01 - [Bot]: Harga laptop Microsoft Surface pro 8 adalah Rp. 13,700,700.
+2023-07-05 14:25:01 - [Bot]: Apakah Anda tertarik?
+2023-07-05 14:25:06 - [User]: tidak. (Current State : ask)
+2023-07-05 14:25:06 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 14:25:06 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 14:25:11 - [User]: Spek laptop..... . (Current State : ask_specification)
+2023-07-05 14:25:11 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 14:25:11 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 14:25:11 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:25:11 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 14:25:18 - [User]: DELL. (Current State : ask_specification)
+2023-07-05 14:25:18 - [Bot]: Silahkan pilih tipe laptop Dell terlebih dahulu
+2023-07-05 14:25:18 - [Bot]: ['Latitude E6230', 'XPS 9350', 'XPS 13', 'Latitude 3410', 'Alienware M15 R5', 'XPS 13 9310', 'Alienware x14', 'Inspiron 5425', 'Vostro 3420', 'Inspiron 15 3511']
+2023-07-05 14:25:18 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 14:25:22 - [User]: XPS 13. (Current State : ask_specification)
+2023-07-05 14:25:22 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 14:25:29 - [User]: tidak. (Current State : ask)
+2023-07-05 14:25:29 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 14:25:29 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 14:26:07 - [User]: Apakah laptop ... masih ada stoknya?. (Current State : ask_stock)
+2023-07-05 14:26:07 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 14:26:07 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 14:26:07 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:26:07 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 14:26:13 - [User]: HP. (Current State : ask_stock)
+2023-07-05 14:26:13 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Hp
+2023-07-05 14:26:13 - [Bot]: ['Pavilion x360', 'Pavilion 15', 'Notebook 14s-dk0073au', 'EliteBook 820 G2', 'Notebook 14-AM016TX', 'Elitebook 8460p', '14S-CF1051TU', 'Pavilion x360', 'Victus 16', 'ENVY 13']
+2023-07-05 14:26:13 - [Bot]: Apa tipe laptop yang Anda cari?
+2023-07-05 14:26:18 - [User]: EliteBook 820 G2. (Current State : ask_stock)
+2023-07-05 14:26:18 - [Bot]: Stok untuk laptop Hp Elitebook 820 g2 ada 455 unit
+2023-07-05 14:26:18 - [Bot]: Apakah Anda tertarik?
+2023-07-05 14:26:24 - [User]: tidak. (Current State : ask)
+2023-07-05 14:26:24 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 14:26:24 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 14:28:13 - [User]: Saya mau beli laptop .... (Current State : order_detail)
+2023-07-05 14:28:13 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 14:28:13 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 14:28:13 - [Bot]: Apa merk laptop yang ingin Anda beli?
+2023-07-05 14:28:19 - [User]: Xiaomi. (Current State : order_detail)
+2023-07-05 14:28:19 - [Bot]: Berikut daftar tipe laptop Xiaomi yang tersedia
+2023-07-05 14:28:19 - [Bot]: ['RedmiBook Pro 14', 'RedmiBook 15', 'Mi Notebook Air', 'ELITEBOOK FOLIO G1', 'RedmiBook 14', 'Xiao Gang', 'RedmiBook 13 R', 'Notebook Pro', 'Redmibook Pro 15', 'Mi Notebook 14']
+2023-07-05 14:28:19 - [Bot]: Apa tipe laptop yang ingin Anda beli?
+2023-07-05 14:28:25 - [User]: Notebook Pro. (Current State : order_detail)
+2023-07-05 14:28:25 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 14:28:25 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 14:28:31 - [User]: 2. (Current State : auth)
+2023-07-05 14:28:31 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 14:28:36 - [User]: belum. (Current State : register)
+2023-07-05 14:28:36 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 14:28:36 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 14:28:45 - [User]: aulia mabbruka putri. (Current State : register)
+2023-07-05 14:28:45 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 14:28:45 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+
+# BINTANG
+2023-07-05 18:38:26 - [User]: rekomendasikan saya laptop gaming dengan harga dibawah 10 juta. (Current State : ask_price)
+2023-07-05 18:38:26 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 18:38:26 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 18:38:26 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 18:38:26 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 18:39:06 - [User]: Berikan rekomendasi laptop asus. (Current State : ask_price)
+2023-07-05 18:39:06 - [Bot]: Berikut list harga laptop Asus dengan tipenya
+2023-07-05 18:39:06 - [Bot]: ['VivoBook X540YA : Rp. 3,700,000', 'TUF Gaming FX505DY : Rp. 9,999,000', 'ZenBook 13 : Rp. 8,999,000', 'ROG Zephyrus G14 : Rp. 20,499,000', 'ROG Strix Scar 17 : Rp. 59,999,000', 'Transformer Book : Rp. 3,199,000', 'TUF Gaming F15 : Rp. 14,799,000', 'Vivobook Pro 15 : Rp. 13,029,000', 'ROG Strix GL553VD : Rp. 14,875,000', 'VivoBook 14 A416JA : Rp. 5,699,000']
+2023-07-05 18:39:06 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 18:39:20 - [User]: zephyrus G14. (Current State : ask_price)
+2023-07-05 18:39:20 - [Bot]: Harga laptop Asus Rog zephyrus g14 adalah Rp. 20,499,000.
+2023-07-05 18:39:20 - [Bot]: Apakah Anda tertarik?
+2023-07-05 18:40:12 - [User]: tidak. (Current State : ask)
+2023-07-05 18:40:12 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:40:12 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:41:23 - [User]: berapa harga laptop vivobook 14 a416ja. (Current State : ask_price)
+2023-07-05 18:41:23 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 18:41:23 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 18:41:23 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 18:41:23 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 18:41:53 - [User]: berapa harga laptop VivoBook 14 A416JA. (Current State : ask_price)
+2023-07-05 18:41:53 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 18:41:53 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 18:41:53 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 18:41:53 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 18:42:10 - [User]: berapa harga laptop asus VivoBook 14 A416JA. (Current State : ask_price)
+2023-07-05 18:42:10 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-05 18:42:10 - [Bot]: ['vivobook 14 a416ja', 'vivobook 14 a416ja']
+2023-07-05 18:42:10 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-05 18:42:27 - [User]: vivobook 14 a416ja. (Current State : ask_price)
+2023-07-05 18:42:27 - [Bot]: Harga laptop Asus Vivobook 14 a416ja adalah Rp. 5,699,000.
+2023-07-05 18:42:27 - [Bot]: Apakah Anda tertarik?
+2023-07-05 18:42:34 - [User]: tidak. (Current State : ask)
+2023-07-05 18:42:34 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:42:34 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:45:37 - [User]: berapa harga laptop asus VivoBook 14 A416JA. (Current State : ask_price)
+2023-07-05 18:45:37 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-05 18:45:37 - [Bot]: ['vivobook 14 a416ja', 'vivobook 14 a416ja']
+2023-07-05 18:45:37 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-05 18:45:42 - [User]: vivobook 14 a416ja. (Current State : ask_price)
+2023-07-05 18:45:42 - [Bot]: Harga laptop Asus Vivobook 14 a416ja adalah Rp. 5,699,000.
+2023-07-05 18:45:42 - [Bot]: Apakah Anda tertarik?
+2023-07-05 18:45:48 - [User]: tidak. (Current State : ask)
+2023-07-05 18:45:48 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:45:48 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:45:52 - [User]: berapa harga laptop asus VivoBook 14 A416JA. (Current State : ask_price)
+2023-07-05 18:45:52 - [Bot]: Harga laptop Asus Vivobook 14 a416ja adalah Rp. 5,699,000.
+2023-07-05 18:45:52 - [Bot]: Apakah Anda tertarik?
+2023-07-05 18:45:57 - [User]: tidak. (Current State : ask)
+2023-07-05 18:45:57 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:45:57 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:46:03 - [User]: berapa harga laptop asus VivoBook 14 A416JA. (Current State : ask_price)
+2023-07-05 18:46:03 - [Bot]: Harga laptop Asus Vivobook 14 a416ja adalah Rp. 5,699,000.
+2023-07-05 18:46:03 - [Bot]: Apakah Anda tertarik?
+2023-07-05 18:46:10 - [User]: vivobook 14 a416ja. (Current State : ask_price)
+2023-07-05 18:46:10 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-05 18:46:10 - [Bot]: ['vivobook 14 a416ja', 'vivobook 14 a416ja']
+2023-07-05 18:46:10 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-05 18:46:15 - [User]: vivobook 14 a416ja. (Current State : ask_price)
+2023-07-05 18:46:15 - [Bot]: Harga laptop Asus Vivobook 14 a416ja adalah Rp. 5,699,000.
+2023-07-05 18:46:15 - [Bot]: Apakah Anda tertarik?
+2023-07-05 18:47:21 - [User]: Spek laptop Asus Vivobook 14 a416ja. (Current State : ask_price)
+2023-07-05 18:47:21 - [Bot]: Berikut daftar tipe laptop yang tersedia.
+2023-07-05 18:47:21 - [Bot]: ['vivobook 14 a416ja', 'vivobook 14 a416ja']
+2023-07-05 18:47:21 - [Bot]: Tipe laptop mana yang Anda maksud?
+2023-07-05 18:47:28 - [User]: vivobook 14 a416ja. (Current State : ask_price)
+2023-07-05 18:47:28 - [Bot]: Harga laptop Asus Vivobook 14 a416ja adalah Rp. 5,699,000.
+2023-07-05 18:47:28 - [Bot]: Apakah Anda tertarik?
+2023-07-05 18:47:34 - [User]: tidak. (Current State : ask)
+2023-07-05 18:47:34 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:47:34 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:47:41 - [User]: spek laptop Asus Vivobook 14 a416ja . (Current State : ask_specification)
+2023-07-05 18:47:41 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 18:47:46 - [User]: tidak. (Current State : ask)
+2023-07-05 18:47:46 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:47:46 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:47:49 - [User]: Asus Vivobook 14 a416ja . (Current State : ask)
+2023-07-05 18:47:49 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:47:49 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:47:57 - [User]: spek laptop Asus Vivobook 14 a416ja . (Current State : ask_specification)
+2023-07-05 18:47:57 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 18:55:02 - [User]: tidak. (Current State : ask)
+2023-07-05 18:55:02 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:55:02 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:55:17 - [User]: Laptop Asus Vivobook 14 a416ja ada? Apakah laptop .. (Current State : ask)
+2023-07-05 18:55:17 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:55:17 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:55:52 - [User]: Laptop Asus Vivobook 14 a416ja ada ?. (Current State : greeting)
+2023-07-05 18:55:52 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 18:56:17 - [User]: apakah Laptop Asus Vivobook 14 a416ja ada ?. (Current State : ask_stock)
+2023-07-05 18:56:17 - [Bot]: Stok untuk laptop Asus Vivobook 14 a416ja ada 250 unit
+2023-07-05 18:56:17 - [Bot]: Apakah Anda tertarik?
+2023-07-05 18:56:24 - [User]: tidak. (Current State : ask)
+2023-07-05 18:56:24 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 18:56:24 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 18:59:28 - [User]: rekomendasikan laptop. (Current State : recommendation)
+2023-07-05 18:59:28 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 18:59:28 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 18:59:28 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 18:59:33 - [User]: Acer. (Current State : recommendation)
+2023-07-05 18:59:33 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Acer
+2023-07-05 18:59:33 - [Bot]: ['Aspire 3 A315-41', 'Spin 3 SP314-51', 'Aspire 3 A315-42', 'Aspire 3 A314-21', 'Aspire ES1-432']
+2023-07-05 18:59:33 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 18:59:43 - [User]: Aspire 3 A315-41. (Current State : recommendation)
+2023-07-05 18:59:43 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 18:59:48 - [User]: ya. (Current State : order_detail)
+2023-07-05 18:59:48 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 18:59:48 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 18:59:55 - [User]: 1. (Current State : auth)
+2023-07-05 18:59:55 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 19:00:01 - [User]: tidak. (Current State : register)
+2023-07-05 19:00:01 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 19:00:01 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 19:00:15 - [User]: User A. (Current State : register)
+2023-07-05 19:00:15 - [Bot]: Masukkan email Anda
+2023-07-05 19:00:15 - [Bot]: Contoh: nilam@mail.com
+2023-07-05 19:00:30 - [User]: emailuser@domain.com. (Current State : register)
+2023-07-05 19:00:30 - [Bot]: Masukkan password
+2023-07-05 19:00:38 - [User]: wut ??. (Current State : register)
+2023-07-05 19:00:38 - [Bot]: Masukkan password
+2023-07-05 19:00:43 - [User]: wut. (Current State : login)
+2023-07-05 19:00:43 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-05 19:00:43 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-05 19:00:43 - [Bot]: Masukkan email Anda
+2023-07-05 19:01:03 - [User]: emailuser@domain.com. (Current State : login)
+2023-07-05 19:01:03 - [Bot]: Masukkan password Anda
+2023-07-05 19:01:07 - [User]: wut. (Current State : order)
+2023-07-05 19:01:07 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-05 19:01:12 - [User]: ya. (Current State : order)
+2023-07-05 19:01:12 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-05 19:01:12 - [Bot]: Id Produk: 7
+Produk: Acer Aspire 3 a315-41
+Jumlah: 1
+Harga: Rp. 7,599,000
+Total: Rp. 7,599,000
+2023-07-05 19:01:12 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-05 19:01:24 - [User]: tidak. (Current State : ask)
+2023-07-05 19:01:24 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 19:01:24 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+
+# AVI
+2023-07-05 19:58:47 - [User]: merk laptop apa saja yang bagus?. (Current State : recommendation)
+2023-07-05 19:58:47 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
+2023-07-05 19:58:47 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 19:58:47 - [Bot]: Merk laptop apa yang Anda inginkan?
+2023-07-05 19:59:25 - [User]: Apple. (Current State : greeting)
+2023-07-05 19:59:25 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 19:59:39 - [User]: Acer. (Current State : greeting)
+2023-07-05 19:59:39 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 19:59:44 - [User]: ASUS. (Current State : greeting)
+2023-07-05 19:59:44 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 19:59:53 - [User]: MSI. (Current State : greeting)
+2023-07-05 19:59:53 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 19:59:59 - [User]: Microsoft. (Current State : greeting)
+2023-07-05 19:59:59 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+2023-07-05 20:00:30 - [User]: apakah ada laptop merk apple?. (Current State : recommendation)
+2023-07-05 20:00:30 - [Bot]: Berikut 5 rekomendasi tipe laptop terbaik dari Apple
+2023-07-05 20:00:30 - [Bot]: ['MacBook Pro 16-inch 2019', 'MacBook Air M2 2022', 'MacBook Air M2 2022', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020']
+2023-07-05 20:00:30 - [Bot]: Tipe laptop apa yang ingin Anda beli?
+2023-07-05 20:01:16 - [User]: macbook pro M1 2020. (Current State : recommendation)
+2023-07-05 20:01:16 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 20:01:32 - [User]: apa saja spesifikasinya?. (Current State : recommendation)
+2023-07-05 20:01:32 - [Bot]: Apakah Anda berminat untuk memesannya sekarang?
+2023-07-05 20:01:39 - [User]: belum. (Current State : ask)
+2023-07-05 20:01:39 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 20:01:39 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 20:02:07 - [User]: apa saja spesifikasi laptop macbook pro M1 2020. (Current State : ask_specification)
+2023-07-05 20:02:07 - [Bot]: Maaf, sepertinya merk tersebut tidak tersedia di toko kami atau merk laptop tidak valid
+2023-07-05 20:02:07 - [Bot]: Berikut daftar merk laptop yang tersedia di toko kami
+2023-07-05 20:02:08 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']
+2023-07-05 20:02:08 - [Bot]: Merk apa yang Anda cari?
+2023-07-05 20:02:16 - [User]: apple. (Current State : ask_specification)
+2023-07-05 20:02:16 - [Bot]: Silahkan pilih tipe laptop Apple terlebih dahulu
+2023-07-05 20:02:16 - [Bot]: ['Macbook Air M1 2020', 'MacBook Air 13-inch', 'MacBook Air M2 2022', 'MacBook Pro 13inch 2017', 'Macbook Pro 13-inch 2020', 'Macbook Pro M1 13 Inch 2020', 'Macbook Air 2020', 'MacBook Pro 16-inch 2019', 'MacBook Pro 13 Inch 2018', 'MacBook Air M2 2022']
+2023-07-05 20:02:16 - [Bot]: Tipe laptop apa yang Anda cari?
+2023-07-05 20:03:06 - [User]: spesifikasi macbook pro M1 13 inch 2020. (Current State : ask_specification)
+2023-07-05 20:03:06 - [Bot]: Apakah Anda berminat memesannya sekarang?
+2023-07-05 20:03:13 - [User]: iya. (Current State : order_detail)
+2023-07-05 20:03:13 - [Bot]: Berapa jumlah laptop yang ingin Anda beli?
+2023-07-05 20:03:13 - [Bot]: Masukkan format angka. contoh : 1/2/3.
+2023-07-05 20:03:19 - [User]: 1. (Current State : auth)
+2023-07-05 20:03:19 - [Bot]: Untuk melanjutkan, silakan login terlebih dahulu. Apakah Anda sudah memiliki akun?
+2023-07-05 20:03:27 - [User]: tidak. (Current State : register)
+2023-07-05 20:03:27 - [Bot]: Kami akan meminta data seperti nama, email, dan password akun Anda untuk melakukan registrasi akun
+2023-07-05 20:03:27 - [Bot]: Masukkan nama Anda sesuai format dari contoh berikut: Nilam Musdalifa
+2023-07-05 20:03:54 - [User]: Reyhani Avissa. (Current State : register)
+2023-07-05 20:03:54 - [Bot]: Masukkan email Anda
+2023-07-05 20:03:54 - [Bot]: Contoh: nilam@mail.com
+2023-07-05 20:04:07 - [User]: avi@gmail.com. (Current State : register)
+2023-07-05 20:04:07 - [Bot]: Masukkan password
+2023-07-05 20:04:16 - [User]: logueend. (Current State : login)
+2023-07-05 20:04:16 - [Bot]: Masukkan informasi berupa alamat email & password untuk melakukan login
+2023-07-05 20:04:16 - [Bot]: Pastikan email Anda sesuai dengan format seperti pada contoh yang diberikan! Contoh: nilam@mail.com
+2023-07-05 20:04:16 - [Bot]: Masukkan email Anda
+2023-07-05 20:04:42 - [User]: reyhaniavissa@gmail.com. (Current State : login)
+2023-07-05 20:04:42 - [Bot]: Masukkan password Anda
+2023-07-05 20:04:48 - [User]: logueend. (Current State : login)
+2023-07-05 20:04:48 - [Bot]: Maaf, email/pass anda salah ☹️
+2023-07-05 20:04:48 - [Bot]: Silahkan melakukan login kembali!
+2023-07-05 20:04:48 - [Bot]: Masukkan email Anda
+2023-07-05 20:05:01 - [User]: avi@gmail.com. (Current State : login)
+2023-07-05 20:05:01 - [Bot]: Masukkan password Anda
+2023-07-05 20:05:06 - [User]: logueend. (Current State : order)
+2023-07-05 20:05:06 - [Bot]: Apakah Anda ingin melanjutkan pembelian laptop?
+2023-07-05 20:05:18 - [User]: iya. (Current State : order)
+2023-07-05 20:05:18 - [Bot]: Pemesanan anda berhasil diproses. Berikut nota pembayaran anda
+2023-07-05 20:05:18 - [Bot]: Id Produk: 16
+Produk: Apple Macbook pro m1 13 inch 2020
+Jumlah: 1
+Harga: Rp. 15,450,000
+Total: Rp. 15,450,000
+2023-07-05 20:05:18 - [Bot]: Apakah Anda ingin membeli laptop lain?
+2023-07-05 20:05:36 - [User]: tidak. (Current State : ask)
+2023-07-05 20:05:36 - [Bot]: Apa yang bisa saya bantu?
+2023-07-05 20:05:36 - [Bot]: Anda bisa menanyakan harga, stok, spesifikasi, menambahkan barang, dan meminta rekomendasi laptop
+2023-07-05 20:12:35 - [User]: apakah laptop asus masih ada. (Current State : ask_stock)
+2023-07-05 20:12:35 - [Bot]: Tentu! Ada banyak pilihan untuk laptop Asus
+2023-07-05 20:12:35 - [Bot]: ['VivoBook X540YA', 'TUF Gaming FX505DY', 'ZenBook 13', 'ROG Zephyrus G14', 'ROG Strix Scar 17', 'Transformer Book', 'TUF Gaming F15', 'Vivobook Pro 15', 'ROG Strix GL553VD', 'VivoBook 14 A416JA']
+2023-07-05 20:12:35 - [Bot]: Apa tipe laptop yang Anda cari?

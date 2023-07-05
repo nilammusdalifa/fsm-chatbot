@@ -1,0 +1,47 @@
+KAMUS:
+  - KEYWORD: perintah
+    WORD:
+    - tampil
+    - tampilkan
+    - sebut
+    - sebutkan
+    - cari
+    - carikan
+    - berikan
+    - beri
+    - minta
+
+  - KEYWORD: tanya
+    WORD:
+    - apa
+    - gimana
+    - sedia
+    - ready
+    - masih
+    - masih ada
+    - ada
+    - berapa
+
+  - KEYWORD: spesifikasi
+    WORD:
+    - spesifikasi
+    - deskripsi
+    - detail
+    - jelasin
+    - desk
+    - spek
+    - penjelasan
+
+  - KEYWORD: termahal
+    WORD:
+    - mahal
+    - termahal
+    - tinggi
+    - tertinggi
+
+  - KEYWORD: termurah
+    WORD:
+    - murah
+    - termurah
+    - rendah
+    - terendah

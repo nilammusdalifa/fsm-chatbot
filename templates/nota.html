@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-white shadow-md rounded px-8 pt-6 pb-7">
+        <h1 class="text-lg font-bold text-gray-800">Nota Pembayaran</h1>
+        <table class="mb-4 text-gray-500 text-xs">
+            <tr>
+                <td>Nomor Pembelian</td>
+                <td> : </td>
+                <td class="font-bold">{{id_transaksi}}</td>
+            </tr>
+            <tr>
+                <td>Tanggal</td>
+                <td> : </td>
+                <td class="font-bold">{{res['tanggal']}}</td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td> : </td>
+                <td class="font-bold text-red-400">Pending</td>
+            </tr>
+            <tr>
+                <td>Email Pembeli</td>
+                <td> : </td>
+                <td class="font-bold">{{email}}</td>
+            </tr>
+        </table>
+        <div class="mb-4">
+            <table class="w-full text-sm">
+                <tr class="border-b border-t">
+                    <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Id Produk</th>
+                    <td class="text-gray-700 pl-2">{{produk['id']}}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Produk</th>
+                    <td class="text-gray-700 pl-2">{{produk['merk']}} {{produk['tipe']}}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Jumlah</th>
+                    <td class="text-gray-700 pl-2">{{res['jumlah']}}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Harga</th>
+                    <td class="text-gray-700 pl-2">Rp{{produk['harga']}}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="font-bold bg-gray-200">Total</th>
+                    <td class="font-bold text-gray-800 pl-2">Rp{{harga_total}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="text-gray-500 text-sm mt-2">
+            <p class="mb-2">Terima kasih telah melakukan pemesanan!</p>
+        </div>
+    </div>
+</body>
+
+</html>
