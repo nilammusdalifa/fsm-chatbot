@@ -22,12 +22,9 @@ class EcommerceDatabase:
             cursor = self.connection.cursor()
             cursor.execute(sql_query)
             result = cursor.fetchall()
-            print(result)
 
             if cursor.rowcount > 0:
-                # output.extend(result)
                 for item in result:
-                    print(item)
                     output.append(item)
             else:
                 output.append('Maaf poduk yang Anda cari tidak tersedia')
@@ -36,7 +33,6 @@ class EcommerceDatabase:
         finally:
             self.disconnect()
 
-                
         return output
 
     def get_recommendation_by_merk(self, data):
@@ -50,44 +46,7 @@ class EcommerceDatabase:
             for result in results:
                 product_recommendation.append(result[0]) 
 
-            print(product_recommendation)
-
             return product_recommendation   
-        except mysql.connector.Error as error:
-            print(f"Error retrieving data from the database: {error}")
-        finally:
-            self.disconnect()
-
-    def get_price(self, data):
-        try:
-            self.connect()
-            cursor = self.connection.cursor()
-            cursor.execute("SELECT harga FROM produk WHERE merk LIKE %s AND tipe LIKE %s", data)
-            result = cursor.fetchone()
-            price = {
-                'price': result[0]
-            }
-
-            return price
-        except mysql.connector.Error as error:
-            print(f"Error retrieving data from the database: {error}")
-        finally:
-            self.disconnect()
-    
-    def get_stock(self, data):
-        try:
-            self.connect()
-            cursor = self.connection.cursor()
-            cursor.execute("SELECT tipe, stok FROM produk WHERE merk LIKE %s AND tipe LIKE %s", data)
-            result = cursor.fetchall()
-
-            for stock in result:
-                stok = stock[1] 
-            
-            if len(result) < 1:
-                stok = None
-        
-            return stok
         except mysql.connector.Error as error:
             print(f"Error retrieving data from the database: {error}")
         finally:
@@ -108,63 +67,6 @@ class EcommerceDatabase:
                 tipe = None
 
             return tipe
-        except mysql.connector.Error as error:
-            print(f"Error retrieving data from the database: {error}")
-        finally:
-            self.disconnect()
-
-    def get_price_type_by_merk(self, data):
-        try:
-            self.connect()
-            cursor = self.connection.cursor()
-            cursor.execute("SELECT tipe, harga FROM produk WHERE merk LIKE %s AND stok > 0", data)
-            results = cursor.fetchall()
-            price = []
-
-            for type in results:
-                price.append(f"{type[0]}" + " : " + "Rp. {:,.0f}".format(type[1]))  
-            
-            if len(results) < 1:
-                price = None
-
-            return price
-        
-        except mysql.connector.Error as error:
-            print(f"Error retrieving data from the database: {error}")
-        finally:
-            self.disconnect()
-    
-    def get_description(self, data):
-        try:
-            self.connect()
-            cursor = self.connection.cursor()
-            cursor.execute("SELECT prosesor, ram, penyimpanan, layar FROM produk WHERE merk LIKE %s AND tipe LIKE %s", data)
-            description = cursor.fetchone()
-            result = {
-                'prosesor': description[0],
-                'ram': description[1],
-                'penyimpanan': description[2],
-                'layar': description[3],
-            }
-
-            return result
-        except mysql.connector.Error as error:
-            print(f"Error retrieving data from the database: {error}")
-        finally:
-            self.disconnect()
-    
-    def find_email(self, email):
-        try:
-            self.connect()
-            cursor = self.connection.cursor()
-            cursor.execute(f"SELECT email FROM pengguna WHERE email = '{email}'")
-            results = cursor.fetchall()
-            email = []
-
-            for result in results:
-                email.append(result[0])
-
-            return len(email) > 0
         except mysql.connector.Error as error:
             print(f"Error retrieving data from the database: {error}")
         finally:

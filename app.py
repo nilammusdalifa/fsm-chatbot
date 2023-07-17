@@ -37,29 +37,29 @@ def main_fsm():
     chat_log('User', f"{user_input}. (Current State : {current_state})")
     
     for response in bot_response: 
-        if re.search(r'<.*?>', response):
-            soup = BeautifulSoup(response, 'html.parser')
-            trs = soup.find_all('tr')
+        # if re.search(r'<.*?>', response):
+        #     soup = BeautifulSoup(response, 'html.parser')
+        #     trs = soup.find_all('tr')
 
-            if trs:
-                data = {}
+        #     if trs:
+        #         data = {}
 
-                for tr in trs:
-                    elements = tr.find_all(['td', 'th'])
-                    element_values = [element.text.strip() for element in elements if element.text.strip()]
-                    if len(element_values) == 2:
-                        data[element_values[0]] = element_values[1]
+        #         for tr in trs:
+        #             elements = tr.find_all(['td', 'th'])
+        #             element_values = [element.text.strip() for element in elements if element.text.strip()]
+        #             if len(element_values) == 2:
+        #                 data[element_values[0]] = element_values[1]
 
-                msg = '\n'.join([f"{key}: {value}" for key, value in data.items()])
-                chat_log('Bot', msg)
+        #         msg = '\n'.join([f"{key}: {value}" for key, value in data.items()])
+        #         chat_log('Bot', msg)
             
-            button_texts = [button.get_text().strip() for button in soup.find_all('button')]
+        #     button_texts = [button.get_text().strip() for button in soup.find_all('button')]
 
-            if button_texts:
-                chat_log('Bot', button_texts)
+        #     if button_texts:
+        #         chat_log('Bot', button_texts)
 
-        else:
-            chat_log('Bot', response)
+        # else:
+        chat_log('Bot', response)
 
     # return bot response as json object
     return jsonify({'response': bot_response, 'current_state': current_state})

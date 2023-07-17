@@ -1057,6 +1057,8 @@ Total: Rp. 11,950,000
 2023-07-05 11:31:18 - [Bot]: Tipe laptop apa yang Anda cari?
 2023-07-05 11:31:26 - [User]: spesifikasi laptop asus. (Current State : greeting)
 2023-07-05 11:31:26 - [Bot]: Maaf saya tidak mengerti apa yang kamu maksud...
+
+# WINA
 2023-07-05 11:59:24 - [User]: rekomendasi laptop bagus. (Current State : recommendation)
 2023-07-05 11:59:24 - [Bot]: Silahkan pilih merk laptop terlebih dahulu!
 2023-07-05 11:59:24 - [Bot]: ['Acer', 'Apple', 'ASUS', 'Xiaomi', 'DELL', 'HP', 'Infinix', 'Lenovo', 'Microsoft', 'MSI', 'Samsung']

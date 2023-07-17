@@ -5,6 +5,7 @@ from database.database2 import EcommerceDatabase
 from fsm_chatbot.form.login import Login
 from fsm_chatbot.form.register import Register
 from fsm_chatbot.form.checkout import Checkout
+from fsm_chatbot.Text2SQL.text2sql.utility import Text2SQL
 from pathlib import Path
 from datetime import date
 import re
@@ -40,6 +41,8 @@ class FiniteStateMachine:
         self.is_confirm = False
         self.last_msg = []
         
+        self.user_request = ''
+        self.user_intent = ''
         self._auto_transit = ''
         self.current_state = 'greeting'
         self._valid_states = ['greeting', 'ask', 'ask_stock', 'ask_price', 'ask_specification', 'recommendation', 'auth', 'login', 'register', 'exit', 'order', 'order_detail'] 
@@ -280,11 +283,11 @@ class FiniteStateMachine:
         }
 
         # DB Connection
-        self._db = EcommerceDatabase('u1722744_chatbot', 'fsmchatbot', 'efemtech.com', 'u1722744_chatbotdb')
+        self._db = EcommerceDatabase('root', 'root', 'localhost', 'db_laptop')
 
     # STATE HANDLER 
     def _greeting_state(self, user_input, intent):
-        return ['Halo, saya focha yang dapat membantu anda dalam pembelian laptop.', 'Anda bisa menanyakan deskripsi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.', 'Apa yang bisa saya bantu?']
+        return ['Halo, saya focha yang dapat membantu anda dalam pembelian laptop.', 'Anda bisa menanyakan spesifikasi, harga, rekomendasi, stok, dan menambahkan barang ke keranjang anda.', 'Apa yang bisa saya bantu?']
 
     def _ask_state(self, user_input, intent):
         self.checkout.delete_slot_checkout()
@@ -297,6 +300,18 @@ class FiniteStateMachine:
     def _recommendation_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
 
+        if 'murah' in user_input or 'mahal' in user_input:
+            rekom = Text2SQL(entity, user_input, intent).respond()
+            laptop = []
+            for item in rekom:
+                item_number, brand, model, price = item
+                laptop.append(f"{brand} {model}") 
+                list_rekom  = self._render_custom_recommendation(laptop)
+
+            msg = ['Berikut rekomendasi laptopnya!', list_rekom, 'Laptop apa yang ingin Anda beli?']
+            
+            return msg
+        
         if entity['merk'] is None:
             all_merk = self._render_all_merk()
             msg = ['Silahkan pilih merk laptop terlebih dahulu!', all_merk, 'Merk laptop apa yang Anda inginkan?']
@@ -358,7 +373,6 @@ class FiniteStateMachine:
     def _order_tipe(self, tipe):
         if tipe:
             if len(tipe) > 1:
-                print('lebih dari 1 tipe')
                 list_tipe = self._render_custom_type(tipe)
                 msg = ['Berikut daftar tipe laptop yang tersedia.', list_tipe, 'Tipe laptop mana yang Anda maksud?']
                 self.checkout.slot['tipe'] = None
@@ -475,7 +489,6 @@ class FiniteStateMachine:
         if intent == 'unknown':
             entity = self.ner.dis
             if len(entity['merk']) == 0 and len(entity['tipe']) == 0 and not user_input.isdigit():
-                print(entity)
                 unknown_msg = self._handle_unknown(user_input, intent)
                 try:
                     order_detail_msg = self._get_order_detail()
@@ -598,6 +611,9 @@ class FiniteStateMachine:
     # TRANSITION HANDLER
     def ask_price_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
+        if intent == 'tanya_harga':
+            self.user_request = user_input
+            self.user_intent = intent
 
         if self.checkout.slot['merk'] and self.checkout.slot['tipe']:
             msg = ['Apakah Anda berminat untuk memesannya sekarang?']
@@ -615,29 +631,36 @@ class FiniteStateMachine:
             self.checkout.slot['merk'] = entity['merk']
 
         if entity['tipe']:
+            print('ada tipe')
             if len(entity['tipe']) == 1:
                 self.checkout.slot['tipe'] = entity['tipe']
-                data = (self._get_merk(), self._get_type())
-                price = self._db.get_price(data)
-                formatted_price = "Rp. {:,.0f}".format(price['price'])
+
+                query_result = Text2SQL(entity, self.user_request, self.user_intent).respond()
+                for result in query_result:
+                    price = result[0]
+        
+                formatted_price = "Rp. {:,.0f}".format(price)
                 msg = [f"Harga laptop {self._get_merk()} {self._get_type()} adalah {formatted_price}.", 'Apakah Anda tertarik?']
             else:
                 list_tipe = self._render_custom_type(entity['tipe'])
                 msg = ['Berikut daftar tipe laptop yang tersedia.', list_tipe, 'Tipe laptop mana yang Anda maksud?']
+                
                 self.checkout.slot['tipe'] = None
                 self.ner.remove_tipe()
 
                 return msg            
         else:
-            data = self._db.get_price_type_by_merk((entity['merk'], ))
-            price_list = self._render_custom_type(data)
-            msg = [f"Berikut list harga laptop {self._get_merk()} dengan tipenya", price_list, 'Tipe laptop apa yang ingin Anda beli?']
+            list_tipe = self._render_all_type_by_merk(self._get_merk())
+            msg = [f"Berikut list laptop {self._get_merk()} dengan tipenya", list_tipe, 'Tipe laptop apa yang ingin Anda beli?']
         
         return msg
 
     def ask_specification_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
-        print(entity)
+
+        if intent == 'tanya_spesifikasi':
+            self.user_request = user_input
+            self.user_intent = intent
 
         if self.checkout.slot['merk'] and self.checkout.slot['tipe']:
             msg = ['Apakah Anda berminat untuk memesannya sekarang?']
@@ -660,9 +683,12 @@ class FiniteStateMachine:
         if entity['tipe']:
             if len(entity['tipe']) == 1:
                 self.checkout.slot['tipe'] = entity['tipe']
-                data = (self._get_merk(), self._get_type())
-                details = self._db.get_description(data)
-                specification = self._generate_specification_details(self._get_merk(), self._get_type(), details['prosesor'], details['ram'], details['penyimpanan'], details['layar'])
+
+                query_result = Text2SQL(entity, self.user_request, self.user_intent).respond()
+                for result in query_result:
+                    spec = result
+                specification = self._generate_specification_details(self._get_merk(), self._get_type(), spec[0], spec[1], spec[2], spec[3])
+                
                 msg = [specification, 'Apakah Anda berminat memesannya sekarang?']
                 
                 return msg
@@ -713,6 +739,10 @@ class FiniteStateMachine:
             
     def ask_stock_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
+
+        if intent == 'tanya_stok':
+            self.user_request = user_input
+            self.user_intent = intent
         
         if entity['merk'] is None:
             all_merk = self._render_all_merk()
@@ -729,8 +759,10 @@ class FiniteStateMachine:
         if entity['tipe']:
             if len(entity['tipe']) == 1:
                 self.checkout.slot['tipe'] = entity['tipe']
-                data = (self.checkout.slot['merk'], self.checkout.slot['tipe'][0])
-                stok = self._db.get_stock(data)
+
+                query_result = Text2SQL(entity, self.user_request, self.user_intent).respond()
+                for result in query_result:
+                    stok = result[0]
                 
                 if stok > 0:
                     msg = [f"Stok untuk laptop {self._get_merk()} {self._get_type()} ada {stok} unit", 'Apakah Anda tertarik?']
@@ -840,6 +872,19 @@ class FiniteStateMachine:
                 <div>
                     <button onclick=handlerButton(this) class="user-input-button capitalize rounded-lg min-w-full w-full text-xs border-2 border-sky-500 px-5 py-1 mb-1 font-medium text-sky-500 transition duration-200 hover:bg-sky-600/5 active:bg-sky-700/5">
                         {tipe}
+                    </button>
+                </div>
+            """
+
+        return msg
+    
+    def _render_custom_recommendation(self, laptop):
+        msg = ''
+        for item in laptop:
+            msg += f"""
+                <div>
+                    <button onclick=handlerButton(this) class="user-input-button capitalize rounded-lg min-w-full w-full text-xs border-2 border-sky-500 px-5 py-1 mb-1 font-medium text-sky-500 transition duration-200 hover:bg-sky-600/5 active:bg-sky-700/5">
+                        {item}
                     </button>
                 </div>
             """
