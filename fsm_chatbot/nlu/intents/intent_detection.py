@@ -54,8 +54,6 @@ class IntentDetection:
         self.__data = data
 
     def __pre_processing(self):
-        # print(self.__data_x)
-        # print(self.__data_y)
         if (self.__data_x == None) or (self.__data_y == None):
             self.__data['TEKS'] = [t.lower() for t in self.__data['TEKS']]
             self.__data_x = self.__data['TEKS']
@@ -73,9 +71,6 @@ class IntentDetection:
             self.__train_y_vect = encoder.fit_transform(self.__train_y)
             self.__test_y_vect = encoder.fit_transform(self.__test_y)
             self.__data_y_vect = encoder.fit_transform(self.__data_y)
-
-            # y_asli_encoder = [(self.__data_y[i], self.__data_y_vect[i]) for i in range(0, 50)]
-            # sorted(set(y_asli_encoder))
         else:
             print('Fungsi __split_and_selection belum dijalankan!')
 

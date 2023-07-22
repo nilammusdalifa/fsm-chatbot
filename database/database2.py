@@ -34,6 +34,20 @@ class EcommerceDatabase:
             self.disconnect()
 
         return output
+    
+    def get_price(self, data):
+        try:
+            self.connect()
+            cursor = self.connection.cursor()
+            cursor.execute("SELECT harga FROM produk WHERE merk LIKE %s AND tipe LIKE %s", data)
+            result = cursor.fetchone()
+            price = result[0]
+
+            return price
+        except mysql.connector.Error as error:
+            print(f"Error retrieving data from the database: {error}")
+        finally:
+            self.disconnect()
 
     def get_recommendation_by_merk(self, data):
         try:

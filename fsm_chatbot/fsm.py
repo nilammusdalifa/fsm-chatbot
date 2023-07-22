@@ -8,7 +8,9 @@ from fsm_chatbot.form.checkout import Checkout
 from fsm_chatbot.Text2SQL.text2sql.utility import Text2SQL
 from pathlib import Path
 from datetime import date
+from os.path import dirname, join
 import re
+import yaml
 
 class FiniteStateMachine:
     def __init__(self):
@@ -194,10 +196,6 @@ class FiniteStateMachine:
                     'action': self._exit_state,
                     'next_state': 'exit'
                 },
-                'tanya_pesan': {
-                    'action': self._order_detail_state,
-                    'next_state': 'order_detail' 
-                },
                 'default': {
                     'action': self._recommendation_state,
                     'next_state': 'recommendation'
@@ -301,9 +299,14 @@ class FiniteStateMachine:
         entity = self._extract_entity(user_input)
 
         if 'murah' in user_input or 'mahal' in user_input:
-            rekom = Text2SQL(entity, user_input, intent).respond()
+            query_result = Text2SQL(entity, 'minta', intent).respond()
+
+            # if query_result == 0:
+            #     msg = ['Harap berikan kalimat dengan kata perintah atau kata tanya di dalamnya! Contoh: apa, berikan, minta, tampilkan, dan lain-lain']
+            #     return msg
+            
             laptop = []
-            for item in rekom:
+            for item in query_result:
                 item_number, brand, model, price = item
                 laptop.append(f"{brand} {model}") 
                 list_rekom  = self._render_custom_recommendation(laptop)
@@ -329,7 +332,7 @@ class FiniteStateMachine:
         return msg
 
     def _order_detail_state(self, user_input, intent):
-        entity = self._extract_entity(user_input) 
+        entity = self._extract_entity(user_input)
         
         if self.checkout.slot['merk'] is None:
             msg = self._order_merk(entity['merk'])
@@ -344,7 +347,7 @@ class FiniteStateMachine:
             if len(self.checkout.slot['tipe']) == 1:
                 self.checkout.slot['tipe'] = entity['tipe']
                 price = self._db.get_price((self._get_merk(), self._get_type()))
-                self.checkout.slot['harga'] = price['price']
+                self.checkout.slot['harga'] = price
             else:
                 list_tipe = self._render_custom_type(entity['tipe'])
                 msg = ['Berikut daftar tipe laptop yang tersedia.', list_tipe, 'Tipe laptop mana yang Anda maksud?']
@@ -424,7 +427,6 @@ class FiniteStateMachine:
     def get_total(self):
         return self.checkout.slot['jumlah'] * self.checkout.slot['harga']
 
-    # Benerin style nota 
     def _generate_nota(self, id_transaksi, tanggal, email, id_laptop, nama_laptop, jumlah, harga, total):
         price = "Rp. {:,.0f}".format(harga)
         total_harga = "Rp. {:,.0f}".format(total)
@@ -631,11 +633,14 @@ class FiniteStateMachine:
             self.checkout.slot['merk'] = entity['merk']
 
         if entity['tipe']:
-            print('ada tipe')
             if len(entity['tipe']) == 1:
                 self.checkout.slot['tipe'] = entity['tipe']
 
-                query_result = Text2SQL(entity, self.user_request, self.user_intent).respond()
+                query_result = Text2SQL(entity, 'berapa', self.user_intent).respond()
+                if query_result == 0:
+                    msg = ['Harap berikan kalimat dengan kata perintah atau kata tanya di dalamnya! Contoh: apa, berikan, minta, tampilkan, dan lain-lain']
+                    return 
+                
                 for result in query_result:
                     price = result[0]
         
@@ -684,7 +689,7 @@ class FiniteStateMachine:
             if len(entity['tipe']) == 1:
                 self.checkout.slot['tipe'] = entity['tipe']
 
-                query_result = Text2SQL(entity, self.user_request, self.user_intent).respond()
+                query_result = Text2SQL(entity, 'apa spek', self.user_intent).respond()
                 for result in query_result:
                     spec = result
                 specification = self._generate_specification_details(self._get_merk(), self._get_type(), spec[0], spec[1], spec[2], spec[3])
@@ -760,7 +765,7 @@ class FiniteStateMachine:
             if len(entity['tipe']) == 1:
                 self.checkout.slot['tipe'] = entity['tipe']
 
-                query_result = Text2SQL(entity, self.user_request, self.user_intent).respond()
+                query_result = Text2SQL(entity, 'ada', self.user_intent).respond()
                 for result in query_result:
                     stok = result[0]
                 
@@ -890,4 +895,3 @@ class FiniteStateMachine:
             """
 
         return msg
-        
