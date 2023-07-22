@@ -744,6 +744,7 @@ class FiniteStateMachine:
             
     def ask_stock_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
+        print(entity)
 
         if intent == 'tanya_stok':
             self.user_request = user_input
@@ -772,7 +773,9 @@ class FiniteStateMachine:
                 if stok > 0:
                     msg = [f"Stok untuk laptop {self._get_merk()} {self._get_type()} ada {stok} unit", 'Apakah Anda tertarik?']
                 else:
-                    msg = [f"Mohon maaf, saat ini kami tidak memiliki stok untuk laptop {self._get_merk()} {self._get_type()}."]
+                    list_tipe = self._render_all_type_by_merk(self._get_merk())
+                    msg = [f"Mohon maaf, saat ini kami tidak memiliki stok untuk laptop {self._get_merk()} {self._get_type()}.", f"Berikut daftar tipe laptop {self._get_merk()} yang tersedia!", list_tipe, 'Apa tipe laptop yang anda cari?']
+                    self.ner.remove_tipe()
                 return msg
             else:
                 list_tipe = self._render_custom_type(entity['tipe'])
