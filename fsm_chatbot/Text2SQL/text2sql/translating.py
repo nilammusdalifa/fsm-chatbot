@@ -31,19 +31,6 @@ class Translating:
         self.__sql_query = self.__select + 'FROM produk ' + self.__where[:-4]
         return self.__sql_query
 
-
-    def __tanya_merk(self):
-
-        # apa saja laptop yang tersedia
-        # SELECT merk FROM produk
-        for sql_component in self.__parsing:
-            if sql_component[0] == 'SELECT':
-                self.__select = str(sql_component[1]).replace('*', 'DISTINCT merk ')    
-
-        self.__sql_query = self.__select + 'FROM produk '
-        return self.__sql_query
-
-
     def __tanya_tipe(self):
         
         # apa saja tipe yang tersedia
@@ -124,9 +111,6 @@ class Translating:
 
         if self.__select == "":
             return 0
-        
-        # if self.__order_condition == "":
-        #     return 1
 
         if self.__bool_w:
             self.__sql_query = self.__select + 'FROM produk ' + self.__where[:-4] + self.__order_condition + 'LIMIT 5'
@@ -137,13 +121,9 @@ class Translating:
         print(self.__sql_query +"\n")
         return self.__sql_query
 
-
     def translate2sql(self):
         if self.__intent == 'tanya_harga': # tanya harga
             self.__sql_query = self.__tanya_harga()
-        
-        elif self.__intent == 7: # tanya merk
-            self.__sql_query = self.__tanya_merk()
         
         elif self.__intent == 'tanya_rekomendasi': # tanya rekomendasi
             self.__sql_query = self.__tanya_rekomendasi()

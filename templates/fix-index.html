@@ -36,7 +36,6 @@
 
                     </div>
                     <div id="bot-typing" class="px-4">
-                        <!-- x-show="botTyping" -->
                         <div class="items-end typing" style="display: none;">
                             <div class="flex flex-col space-y-2 text-md leading-tight mx-2 order-2 items-start">
                                 <div><img src="static/img/typing.gif" alt="..." class="w-16 ml-6"></div>
@@ -90,6 +89,7 @@
     <script>
         const msgText = $("#input-text");
         const chatForm = document.getElementById("chat-form");
+        const resetButton = $('#reset');
 
         let botTyping = false
         let messages = [{
@@ -132,6 +132,42 @@
                 this.addChat(messages, userInput)
                 msgText.val('')
             }
+        })
+
+        chatForm.addEventListener("click", event => {
+            event.preventDefault();
+
+            let userInput = msgText.val();
+            if (userInput == '') {
+                return
+            } else {
+                setTimeout(() => {
+                    scrollChat();
+                    botTyping = true;
+                    botTypeIndicator(botTyping)
+                }, 1000)
+                this.addChat(messages, userInput)
+                msgText.val('')
+            }
+        })
+
+        resetButton.on('click', () => {
+            const history = $.ajax({
+                url: "/reset",
+                method: "POST",
+                dataType: "json",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    "history": messages
+                }),
+                success: function(data) {
+                    messages = data
+                    window.location.href = "/"
+                },
+                error: function(xhr, status, error) {
+                    console.log("Error: " + error);
+                }
+            })
         })
 
         function renderUserChat(text) {
@@ -230,27 +266,6 @@
                 messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;
             }, 100);
         }
-
-        const resetButton = $('#reset');
-
-        resetButton.on('click', () => {
-            const history = $.ajax({
-                url: "/reset",
-                method: "POST",
-                dataType: "json",
-                contentType: "application/json",
-                data: JSON.stringify({
-                    "history": messages
-                }),
-                success: function(data) {
-                    messages = data
-                    window.location.href = "/"
-                },
-                error: function(xhr, status, error) {
-                    console.log("Error: " + error);
-                }
-            })
-        })
     </script>
 
 </body>

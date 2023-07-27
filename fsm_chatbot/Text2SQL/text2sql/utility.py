@@ -31,6 +31,7 @@ class Text2SQL:
     
     def respond(self):
         query = self.__get_query()
+        print(query)
         if isinstance(query, int):
             result = query
         else:

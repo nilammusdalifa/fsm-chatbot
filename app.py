@@ -2,7 +2,6 @@ from flask import Flask, jsonify, render_template, request
 from fsm_chatbot.fsm import FiniteStateMachine as FSM
 from bs4 import BeautifulSoup
 
-import re
 
 # import logging
 from loguru import logger
@@ -37,6 +36,7 @@ def main_fsm():
     chat_log('User', f"{user_input}. (Current State : {current_state})")
     
     for response in bot_response: 
+        chat_log('Bot', response)
         # if re.search(r'<.*?>', response):
         #     soup = BeautifulSoup(response, 'html.parser')
         #     trs = soup.find_all('tr')
@@ -59,7 +59,6 @@ def main_fsm():
         #         chat_log('Bot', button_texts)
 
         # else:
-        chat_log('Bot', response)
 
     # return bot response as json object
     return jsonify({'response': bot_response, 'current_state': current_state})
@@ -74,6 +73,7 @@ def reset_chat():
     fsm.current_state = 'greeting'
     fsm.is_login = False
     fsm.is_confirm = False
+    fsm.is_sort_by_price = False
     fsm.ner.remove_merktipe()
     fsm.checkout.delete_slot_checkout()
     fsm.regis.delete_slot_regis()

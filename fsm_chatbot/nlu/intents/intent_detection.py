@@ -143,7 +143,7 @@ class IntentDetection:
         predicted_class_score = confidence_scores[0, predicted_class_index]
         print(predicted_class_score)
 
-        if predicted_class_score < 0.6:
+        if predicted_class_score < 0.5:
             return 13
         else:
             return predicted_class

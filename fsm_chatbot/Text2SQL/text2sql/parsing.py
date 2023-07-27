@@ -57,7 +57,7 @@ class Parsing:
                 sql_component.append(('SELECT', 'SELECT *'))
 
             elif 'spesifikasi' in keywoard:
-                sql_component.append(('SELECT', 'SELECT *'))
+                sql_component.append(('FIELD', 'spesifikasi'))
 
             elif 'termahal' in keywoard:
                 sql_component.append(('ORDER_CONDITION', 'termahal'))  
