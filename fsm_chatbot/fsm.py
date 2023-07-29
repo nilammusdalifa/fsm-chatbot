@@ -10,6 +10,7 @@ from pathlib import Path
 from datetime import date
 import re
 import copy
+import os
 
 class FiniteStateMachine:
     def __init__(self):
@@ -298,6 +299,7 @@ class FiniteStateMachine:
 
     def _recommendation_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
+        print('entities: ', entity)
 
         if 'murah' in user_input or 'mahal' in user_input:
             self.is_sort_by_price = True
@@ -319,6 +321,7 @@ class FiniteStateMachine:
             data = self._db.get_recommendation_by_merk((entity['merk'],))
             tipe = self._render_type(data)
             msg = [f"Berikut 5 rekomendasi tipe laptop terbaik dari {self._get_merk()}", tipe, 'Tipe laptop apa yang ingin Anda beli?']
+        
         else:
             self.checkout.slot['merk'] = entity['merk']
             self.checkout.slot['tipe'] = entity['tipe']
@@ -329,6 +332,7 @@ class FiniteStateMachine:
 
     def _order_detail_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
+        print('order detail : ', entity)
         
         if self.checkout.slot['merk'] is None:
             msg = self._order_merk(entity['merk'])
@@ -352,129 +356,6 @@ class FiniteStateMachine:
         if self.checkout.slot['merk'] and self.checkout.slot['tipe'] and self.checkout.slot['jumlah']:
             self.ner.remove_merktipe()
             self._auto_transit = 'order'
-
-    def _order_merk(self, merk):
-        if merk:
-            self.checkout.slot['merk'] = merk
-        else:
-            self.ner.remove_tipe()
-            all_merk = self._render_all_merk()
-            msg = ['Berikut daftar merk laptop yang tersedia di toko kami', all_merk,'Apa merk laptop yang ingin Anda beli?']
-            return msg
-    
-    def _order_tipe(self, tipe):
-        if tipe:
-            if len(tipe) > 1:
-                list_tipe = self._render_type(tipe)
-                msg = ['Berikut daftar tipe laptop yang tersedia.', list_tipe, 'Tipe laptop mana yang Anda maksud?']
-                self.checkout.slot['tipe'] = None
-                self.ner.remove_tipe()
-
-                return msg
-            
-            self.checkout.slot['tipe'] = tipe
-        else:
-            tipe = self._render_all_type_by_merk(self._get_merk())
-            msg = [f"Berikut daftar tipe laptop {self._get_merk()} yang tersedia!", tipe, 'Apa tipe laptop yang ingin Anda beli?']
-
-            return msg
-
-    def _order_jumlah(self, jumlah):
-        if jumlah.isdigit():
-            self.checkout.slot['jumlah'] = int(jumlah)
-        else:
-            msg = ['Berapa jumlah laptop yang ingin Anda beli?', 'Masukkan format angka. contoh : 1/2/3.']
-            return msg
-
-    def _get_order_detail(self):
-        merk = self.checkout.slot['merk'].upper()
-        tipe = self.checkout.slot['tipe'][0].upper()
-        jumlah = self._get_jumlah()
-        harga = "Rp. {:,.0f}".format(self._get_price())
-        total = "Rp. {:,.0f}".format(self._get_total())
-
-        order_detail = [
-            f"<pre>Berikut rincian pesanan Anda \nMerk    : {merk:<10} \nTipe    : {tipe:<10} \nHarga   : {harga:<10} \nJumlah  : {jumlah:<10} \nTotal   : {total:<10} </pre>",
-            'Apakah Anda ingin melanjutkan pembelian laptop?'
-        ]
-        self.is_confirm = True
-
-        return order_detail
-    
-    def _get_merk(self):
-        return self.checkout.slot['merk'].capitalize()
-    
-    def _get_type(self):
-        return self.checkout.slot['tipe'][0].capitalize()
-    
-    def _get_price(self):
-        return self.checkout.slot['harga']
-    
-    def _get_jumlah(self):
-        return self.checkout.slot['jumlah']
-    
-    def _get_total(self):
-        return self.checkout.slot['jumlah'] * self.checkout.slot['harga']
-
-    def _generate_nota(self, id_transaksi, tanggal, email, id_laptop, nama_laptop, jumlah, harga, total):
-        price = "Rp. {:,.0f}".format(harga)
-        total_harga = "Rp. {:,.0f}".format(total)
-        msg = f"""
-            <div class="bg-white shadow-md rounded px-8 pt-6 pb-7">
-                <h1 class="text-lg font-bold text-gray-800">Nota Pembayaran</h1>
-                <table class="my-4 text-gray-500 text-xs">
-                    <tr>
-                        <td>Nomor Pembelian</td>
-                        <td> : </td>
-                        <td class="font-bold">{id_transaksi}</td>
-                    </tr>
-                    <tr>
-                        <td>Tanggal</td>
-                        <td> : </td>
-                        <td class="font-bold">{tanggal}</td>
-                    </tr>
-                    <tr>
-                        <td>Status</td>
-                        <td> : </td>
-                        <td class="font-bold text-red-400">Pending</td>
-                    </tr>
-                    <tr>
-                        <td>Email Pembeli</td>
-                        <td> : </td>
-                        <td class="font-bold">{email}</td>
-                    </tr>
-                </table>
-                <div class="mb-4">
-                    <table class="w-full text-sm">
-                        <tr class="border-b border-t">
-                            <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Id Produk</th>
-                            <td class="text-gray-700 pl-2">{id_laptop}</td>
-                        </tr>
-                        <tr class="border-b">
-                            <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Produk</th>
-                            <td class="text-gray-700 pl-2">{nama_laptop}</td>
-                        </tr>
-                        <tr class="border-b">
-                            <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Jumlah</th>
-                            <td class="text-gray-700 pl-2">{jumlah}</td>
-                        </tr>
-                        <tr class="border-b">
-                            <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Harga</th>
-                            <td class="text-gray-700 pl-2">{price}</td>
-                        </tr>
-                        <tr class="border-b">
-                            <th class="font-bold bg-gray-200">Total</th>
-                            <td class="font-bold text-gray-800 pl-2">{total_harga}</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="text-gray-500 text-sm mt-2">
-                    <p class="mb-2">Terimakasih telah melakukan pemesanan!</p>
-                </div>
-            </div>
-            """
-
-        return msg
     
     def _order_state(self, user_input, intent):
         self.is_sort_by_price = False
@@ -591,25 +472,15 @@ class FiniteStateMachine:
             self.regis.slot['pass'] = None
             return msg
   
-    def _exit_state(self, user_input, intent):
-        self.checkout.delete_slot_checkout()
-        self.is_confirm = False
-        self.is_login = False
-        self.ner.remove_merktipe()
-        return ['Terima kasih telah menggunakan layanan chatbot ecommerce kami :)', 'Jika Anda memiliki pertanyaan lain di masa depan, jangan ragu untuk kembali lagi. Semoga harimu menyenangkan!']
-    
-    def _handle_unknown(self, user_input, intent):
-        msg = ['Maaf saya tidak mengerti apa yang kamu maksud...']
-
-        return msg
-
     def _ask_price_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
+        print(entity)
         if intent == 'tanya_harga':
             self.user_intent = intent
 
         if self.checkout.slot['merk'] and self.checkout.slot['tipe']:
             msg = ['Apakah Anda berminat untuk memesannya sekarang?']
+            return msg
 
         if entity['merk'] is None:
             all_merk = self._render_all_merk()
@@ -630,9 +501,8 @@ class FiniteStateMachine:
                 temp_entity = copy.deepcopy(entity)
                 temp_entity['tipe'] = [entity['tipe'][-1]]
                 self.checkout.slot['tipe'] = temp_entity['tipe']
-                print(self.checkout.slot)
 
-                query_result = Text2SQL(entity, 'berapa', self.user_intent).respond()
+                query_result = Text2SQL(temp_entity, 'berapa', self.user_intent).respond()
                 for result in query_result:
                     price = result[0]
         
@@ -653,7 +523,7 @@ class FiniteStateMachine:
             list_tipe = self._render_all_type_by_merk(self._get_merk())
             msg = [f"Silahkan pilih tipe laptop {self._get_merk()} terlebih dahulu!", list_tipe, 'Tipe laptop apa yang Anda cari?']
         
-        return msg
+            return msg
 
     def _ask_specification_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
@@ -682,7 +552,7 @@ class FiniteStateMachine:
                 temp_entity['tipe'] = [entity['tipe'][-1]]
                 self.checkout.slot['tipe'] = temp_entity['tipe']
 
-                query_result = Text2SQL(entity, 'apa spek', self.user_intent).respond()
+                query_result = Text2SQL(temp_entity, 'apa spek', self.user_intent).respond()
                 for result in query_result:
                     spec = result
                 specification = self._generate_specification_details(self._get_merk(), self._get_type(), spec[0], spec[1], spec[2], spec[3])
@@ -703,39 +573,7 @@ class FiniteStateMachine:
             msg = [f"Silahkan pilih tipe laptop {self._get_merk()} terlebih dahulu", list_tipe, 'Tipe laptop apa yang Anda cari?']
 
             return msg
-    
-    def _generate_specification_details(self, merk, tipe, prosesor, ram, penyimpanan, layar):
-        msg = f'''
-            <div class="flex flex-col gap-2">
-                <div class="flex flex-row gap-2">
-                    <p>Spesifikasi Laptop</p>
-                    <p class="capitalize">{merk} {tipe}</p>
-                </div>
-                <div class="flex flex-row gap-2">
-                    <p class="w-28">Prosesor</p>
-                    <p>:</p>
-                    <p>{prosesor}</p>
-                </div>
-                <div class="flex flex-row gap-2">
-                    <p class="w-28">RAM</p>
-                    <p>:</p>
-                    <p>{ram}</p>
-                </div>
-                <div class="flex flex-row gap-2">
-                    <p class="w-28">Penyimpanan</p>
-                    <p>:</p>
-                    <p>{penyimpanan}</p>
-                </div>
-                <div class="flex flex-row gap-2">
-                    <p class="w-28">Ukuran Layar</p>
-                    <p>:</p>
-                    <p>{layar}</p>
-                </div>
-            </div>
-        '''
-
-        return msg 
-            
+         
     def _ask_stock_state(self, user_input, intent):
         entity = self._extract_entity(user_input)
 
@@ -755,7 +593,6 @@ class FiniteStateMachine:
             self.checkout.slot['merk'] = entity['merk']
 
         if entity['tipe']:
-            print(entity)
             if len(entity['tipe']) == 1 or len(entity['tipe']) > self.latest_types:
                 # latest type ini untuk menampung jumlah entitas tipe terakhir
                 # dibikin infinte krn supaya saat pertama kali tipe diekstrak, tidak akan masuk ke kondisi ini
@@ -791,6 +628,18 @@ class FiniteStateMachine:
             
             return msg
     
+    def _exit_state(self, user_input, intent):
+        self.checkout.delete_slot_checkout()
+        self.is_confirm = False
+        self.is_login = False
+        self.ner.remove_merktipe()
+        return ['Terima kasih telah menggunakan layanan chatbot ecommerce kami :)', 'Jika Anda memiliki pertanyaan lain di masa depan, jangan ragu untuk kembali lagi. Semoga harimu menyenangkan!']
+    
+    def _handle_unknown(self, user_input, intent):
+        msg = ['Maaf saya tidak mengerti apa yang kamu maksud...']
+
+        return msg
+    
     # GET CURRENT STATE
     def get_state(self):
         return self.current_state
@@ -818,6 +667,161 @@ class FiniteStateMachine:
 
         return response
 
+    def _order_merk(self, merk):
+        if merk:
+            self.checkout.slot['merk'] = merk
+        else:
+            self.ner.remove_tipe()
+            all_merk = self._render_all_merk()
+            msg = ['Berikut daftar merk laptop yang tersedia di toko kami', all_merk,'Apa merk laptop yang ingin Anda beli?']
+            return msg
+    
+    def _order_tipe(self, tipe):
+        if tipe:
+            if len(tipe) > 1:
+                list_tipe = self._render_type(tipe)
+                msg = ['Berikut daftar tipe laptop yang tersedia.', list_tipe, 'Tipe laptop mana yang Anda maksud?']
+                self.checkout.slot['tipe'] = None
+                self.ner.remove_tipe()
+
+                return msg
+            
+            self.checkout.slot['tipe'] = tipe
+        else:
+            tipe = self._render_all_type_by_merk(self._get_merk())
+            msg = [f"Berikut daftar tipe laptop {self._get_merk()} yang tersedia!", tipe, 'Apa tipe laptop yang ingin Anda beli?']
+
+            return msg
+
+    def _order_jumlah(self, jumlah):
+        if jumlah.isdigit():
+            self.checkout.slot['jumlah'] = int(jumlah)
+        else:
+            msg = ['Berapa jumlah laptop yang ingin Anda beli?', 'Masukkan format angka. contoh : 1/2/3.']
+            return msg
+
+    def _get_order_detail(self):
+        merk = self.checkout.slot['merk'].upper()
+        tipe = self.checkout.slot['tipe'][-1].upper()
+        jumlah = self._get_jumlah()
+        harga = "Rp. {:,.0f}".format(self._get_price())
+        total = "Rp. {:,.0f}".format(self._get_total())
+
+        order_detail = [
+            f"<pre>Berikut rincian pesanan Anda \nMerk    : {merk:<10} \nTipe    : {tipe:<10} \nHarga   : {harga:<10} \nJumlah  : {jumlah:<10} \nTotal   : {total:<10} </pre>",
+            'Apakah Anda ingin melanjutkan pembelian laptop?'
+        ]
+        self.is_confirm = True
+
+        return order_detail
+    
+    def _get_merk(self):
+        return self.checkout.slot['merk'].capitalize()
+    
+    def _get_type(self):
+        return self.checkout.slot['tipe'][0].capitalize()
+    
+    def _get_price(self):
+        return self.checkout.slot['harga']
+    
+    def _get_jumlah(self):
+        return self.checkout.slot['jumlah']
+    
+    def _get_total(self):
+        return self.checkout.slot['jumlah'] * self.checkout.slot['harga']
+
+    def _generate_nota(self, id_transaksi, tanggal, email, id_laptop, nama_laptop, jumlah, harga, total):
+        price = "Rp. {:,.0f}".format(harga)
+        total_harga = "Rp. {:,.0f}".format(total)
+        msg = f"""
+            <div class="bg-white shadow-md rounded px-8 pt-6 pb-7">
+                <h1 class="text-lg font-bold text-gray-800">Nota Pembayaran</h1>
+                <table class="my-4 text-gray-500 text-xs">
+                    <tr>
+                        <td>Nomor Pembelian</td>
+                        <td> : </td>
+                        <td class="font-bold">{id_transaksi}</td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal</td>
+                        <td> : </td>
+                        <td class="font-bold">{tanggal}</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td> : </td>
+                        <td class="font-bold text-red-400">Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Email Pembeli</td>
+                        <td> : </td>
+                        <td class="font-bold">{email}</td>
+                    </tr>
+                </table>
+                <div class="mb-4">
+                    <table class="w-full text-sm">
+                        <tr class="border-b border-t">
+                            <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Id Produk</th>
+                            <td class="text-gray-700 pl-2">{id_laptop}</td>
+                        </tr>
+                        <tr class="border-b">
+                            <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Produk</th>
+                            <td class="text-gray-700 pl-2">{nama_laptop}</td>
+                        </tr>
+                        <tr class="border-b">
+                            <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Jumlah</th>
+                            <td class="text-gray-700 pl-2">{jumlah}</td>
+                        </tr>
+                        <tr class="border-b">
+                            <th class="bg-gray-100 font-bold text-left pl-1 text-gray-600">Harga</th>
+                            <td class="text-gray-700 pl-2">{price}</td>
+                        </tr>
+                        <tr class="border-b">
+                            <th class="font-bold bg-gray-200">Total</th>
+                            <td class="font-bold text-gray-800 pl-2">{total_harga}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="text-gray-500 text-sm mt-2">
+                    <p class="mb-2">Terimakasih telah melakukan pemesanan!</p>
+                </div>
+            </div>
+            """
+
+        return msg
+
+    def _generate_specification_details(self, merk, tipe, prosesor, ram, penyimpanan, layar):
+        msg = f'''
+            <div class="flex flex-col gap-2">
+                <div class="flex flex-row gap-2">
+                    <p>Spesifikasi Laptop</p>
+                    <p class="capitalize">{merk} {tipe}</p>
+                </div>
+                <div class="flex flex-row gap-2">
+                    <p class="w-28">Prosesor</p>
+                    <p>:</p>
+                    <p>{prosesor}</p>
+                </div>
+                <div class="flex flex-row gap-2">
+                    <p class="w-28">RAM</p>
+                    <p>:</p>
+                    <p>{ram}</p>
+                </div>
+                <div class="flex flex-row gap-2">
+                    <p class="w-28">Penyimpanan</p>
+                    <p>:</p>
+                    <p>{penyimpanan}</p>
+                </div>
+                <div class="flex flex-row gap-2">
+                    <p class="w-28">Ukuran Layar</p>
+                    <p>:</p>
+                    <p>{layar}</p>
+                </div>
+            </div>
+        '''
+
+        return msg 
+       
     # INTENT DETECTION
     def detect_intent(self, user_input):
         intent_detection = IntentDetection()
@@ -830,7 +834,6 @@ class FiniteStateMachine:
     def _extract_entity(self, user_input):
         self.ner.get_entitas(user_input)
         entity = self.ner.dis
-        print(entity)
 
         merk = entity['merk'][0] if len(entity['merk']) == 1 else None
 
@@ -849,6 +852,7 @@ class FiniteStateMachine:
 
         return items
 
+    # RENDER BUTTON
     def _render_all_merk(self):
         all_merk = self._db.get_all_merk()
         msg = ''

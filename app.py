@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 
 # import logging
-from loguru import logger
+# from loguru import logger
 
 app = Flask(__name__)
 app.static_folder = 'static'
@@ -12,7 +12,7 @@ app.static_folder = 'static'
 # Initialize Database and Finite State Machine  
 fsm = FSM()
 file_path = f"Log/chat-history.log"
-logger.add(file_path, level="DEBUG", format="{time:YYYY-MM-DD HH:mm:ss} - {message}")
+# logger.add(file_path, level="DEBUG", format="{time:YYYY-MM-DD HH:mm:ss} - {message}")
 
 @app.route("/")
 def home():
@@ -33,10 +33,10 @@ def main_fsm():
     current_state = fsm.get_state()
 
     # save the conversation between bot and user to log file
-    chat_log('User', f"{user_input}. (Current State : {current_state})")
+    # chat_log('User', f"{user_input}. (Current State : {current_state})")
     
-    for response in bot_response: 
-        chat_log('Bot', response)
+    # for response in bot_response: 
+    #     chat_log('Bot', response)
         # if re.search(r'<.*?>', response):
         #     soup = BeautifulSoup(response, 'html.parser')
         #     trs = soup.find_all('tr')
@@ -81,8 +81,8 @@ def reset_chat():
     
     return chat_history
 
-def chat_log(user, message):
-    logger.info(f"[{user}]: {message}")
+# def chat_log(user, message):
+    # logger.info(f"[{user}]: {message}")
 
 if __name__ == "__main__":
     app.run(debug=True)
